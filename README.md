@@ -21,94 +21,90 @@
 - [6.图像恢复（Image Restoration）](#6.图像恢复)
 - [7.图像增强（Image Enhancement）](#7.图像增强)
 - [8.图像去摩尔纹（Image Demoireing）](#8.图像去摩尔纹)
-- [9.图像修复（Inpainting）](#9.图像修复)
-- [10.图像质量评价（Image Quality Assessment）](#10.图像质量评价)
+- [9.图像阴影去除(Image Shadow Removal)](#9.图像阴影去除)
+- [10.图像翻译（Image Translation）](#10.图像翻译)
 - [11.插帧（Frame Interpolation）](#11.插帧)
 - [12.视频压缩（Video Compression）](#12.视频压缩)
-- [13.其他](#13.其他)
+- 
 
 ## High-Level-Vision（主要包括：图像分类，检测，分割，跟踪，GAN等方向）
-### [1. 检测](#detection)
+### [检测](#detection)
 * [图像目标检测(Image Object Detection)](#IOD)<br>
 * [视频目标检测(Video Object Detection)](#VOD)<br>
 * [三维目标检测(3D Object Detection)](#3DOD)<br>
 * [动作检测(Activity Detection)](#ActivityDetection)<br>
 * [异常检测(Anomally Detetion)](#AnomallyDetetion)<br>
 
-### [2. 图像分割(Image Segmentation)](#ImageSegmentation)
+### [图像分割(Image Segmentation)](#ImageSegmentation)
 * [全景分割(Panoptic Segmentation)](#PanopticSegmentation)<br>
 * [语义分割(Semantic Segmentation)](#SemanticSegmentation)<br>
 * [实例分割(Instance Segmentation)](#InstanceSegmentation)<br>
 * [抠图(Matting)](#Matting)<br>
 
-### [3. 图像处理(Image Processing)](#ImageProcessing)
+### [人脸(Face)](#Face)
 
-* [图像复原(Image Restoration)/超分辨率(Super Resolution)](#ImageRestoration)
-* [图像阴影去除(Image Shadow Removal)](#ISR)
-* [图像去噪/去模糊/去雨去雾(Image Denoising)](#ImageDenoising)
-* [图像编辑(Image Edit)](#ImageEdit)
-* [图像翻译(Image Translation)](#ImageTranslation))
+### [目标跟踪(Object Tracking)](#ObjectTracking)
 
-### [4. 人脸(Face)](#Face)
+### [重识别(Re-Identification)](#Re-Identification)
 
-### [5. 目标跟踪(Object Tracking)](#ObjectTracking)
+### [医学影像(Medical Imaging)](#MedicalImaging)
 
-### [6. 重识别(Re-Identification)](#Re-Identification)
+### [GAN/生成式/对抗式(GAN/Generative/Adversarial)](#GAN)
 
-### [7. 医学影像(Medical Imaging)](#MedicalImaging)
-
-### [8. GAN/生成式/对抗式(GAN/Generative/Adversarial)](#GAN)
-
-### [9. 估计(Estimation)](#Estimation)
+### [估计(Estimation)](#Estimation)
 * [人体姿态估计(Human Pose Estimation)](#HumanPoseEstimation)
 * [手势估计(Gesture Estimation)](#GestureEstimation)
 * [光流/位姿/运动估计(Flow/Pose/Motion Estimation)](#Flow/Pose/MotionEstimation)
-* [深度估计(Depth Estimation)](#DepthEstimation)
 
-### [10. 三维视觉(3D Vision)](#3DVision)
+### [三维视觉(3D Vision)](#3DVision)
 * [三维点云(3D Point Cloud)](#3DPC)<br>
 * [三维重建(3D Reconstruction)](#3DReconstruction)<br>
 
-## 模型架构与数据处理（主要包括：Backbone，NAS，模型压缩，模型评估）
-### [11. 神经网络架构(Neural Network Structure)](#NNS)
-* [Transformer](#Transformer)<br>
+## 模型架构与数据处理（主要包括：Transformer，Backbone，NAS，模型压缩，模型评估）
+
+### [Transformer](#Transformer)<br>
+
+### [神经网络架构(Neural Network Structure)](#NNS)
 * [图神经网络(GNN)](#GNN)<br>
 
-### [12. 神经网络架构搜索(NAS)](#NAS)
+### [神经网络架构搜索(NAS)](#NAS)
 
-### [13. 数据处理(Data Processing)](#DataProcessing)
+### [数据处理(Data Processing)](#DataProcessing)
 * [数据增广(Data Augmentation)](#DataAugmentation)<br>
 * [归一化/正则化(Batch Normalization)](#BatchNormalization)<br>
 * [图像聚类(Image Clustering)](#ImageClustering)<br>
 
-### [14. 模型压缩(Model Compression)](#ModelCompression)
+### [模型压缩(Model Compression)](#ModelCompression)
 * [知识蒸馏(Knowledge Distillation)](KnowledgeDistillation)<br>
 
-### [15. 模型评估(Model Evaluation)](#ModelEvaluation)
+### [模型评估(Model Evaluation)](#ModelEvaluation)
 
-### [16. 数据集(Database)](#Database)
+### [数据集(Database)](#Database)
 <br>
 
 ## 其它方向
-### [17. 主动学习(Active Learning)](#ActiveLearning)
+### [主动学习(Active Learning)](#ActiveLearning)
 
-### [18. 小样本学习/零样本(Few-shot Learning)](#Few-shotLearning)
+### [小样本学习/零样本(Few-shot Learning)](#Few-shotLearning)
 
-### [19. 持续学习(Continual Learning/Life-long Learning)](#ContinualLearning)
+### [持续学习(Continual Learning/Life-long Learning)](#ContinualLearning)
 
-### [20. 视觉推理(Visual Reasoning)](#VisualReasoning)
+### [视觉推理(Visual Reasoning)](#VisualReasoning)
 
-### [21. 迁移学习/domain/自适应](#domain)
+### [迁移学习/domain/自适应](#domain)
 
-### [22. 对比学习(Contrastive Learning)](#ContrastiveLearning)
+### [对比学习(Contrastive Learning)](#ContrastiveLearning)
 
-### [23. 图像/视频检索(Image Retrieval)](#ImageRetrieval)
+### [图像/视频检索(Image Retrieval)](#ImageRetrieval)
 <br>
 
-## [3. CVPR2021的论文解读](#Reading)
+## 3. CVPR2021的论文解读
+ - [论文解读](#Reading)
 
-<br>
+<br><br>
+
 <a name="1.超分辨率"></a>
+
 ## 1.超分辨率（Super-Resolution）
 
 ### Unsupervised Degradation Representation Learning for Blind Super-Resolution
@@ -140,6 +136,10 @@
 
 <a name="4.去模糊"></a>
 ## 4.去模糊（Deblurring）
+### DeFMO: Deblurring and Shape Recovery of Fast Moving Objects(快速移动物体的去模糊和形状恢复)<br>
+- [paper](https://arxiv.org/abs/2012.00595)
+- [code](https://github.com/rozumden/DeFMO)
+- [video](https://www.youtube.com/watch?v=pmAynZvaaQ4)<br>
 
 <a name="5.去噪"></a>
 ## 5.去噪（Denoising）
@@ -153,6 +153,13 @@
 ### CT Film Recovery via Disentangling Geometric Deformation and Illumination Variation: Simulated Datasets and Deep Models
 - Paper：[https://arxiv.org/abs/2012.09491](https://arxiv.org/abs/2012.09491)
 - Code：[https://github.com/transcendentsky/Film-Recovery](https://github.com/transcendentsky/Film-Recovery)
+
+### Data-Free Knowledge Distillation For Image Super-Resolution(DAFL算法的SR版本)<br><br>
+
+### AdderSR: Towards Energy Efficient Image Super-Resolution(将加法网路应用到图像超分辨率中)<br>
+- 论文地址:[https://arxiv.org/pdf/2009.08891.pdf](https://arxiv.org/pdf/2009.08891.pdf)
+- 代码地址:[https://github.com/huawei-noah/AdderNet](https://github.com/huawei-noah/AdderNet)<br>
+- 解读：[华为开源加法神经网络](https://zhuanlan.zhihu.com/p/113536045)<br><br>
 
 <a name="7.图像增强"></a>
 ## 7.图像增强（Image Enhancement）
@@ -168,11 +175,23 @@
 <a name="8.图像去摩尔纹"></a>
 ## 8.图像去摩尔纹（Image Demoireing）
 
-<a name="9.图像修复"></a>
-## 9.图像修复（Inpainting）
+<a name="9.图像阴影去除"></a>
+## 9.图像阴影去除(Image Shadow Removal)
+### Auto-Exposure Fusion for Single-Image Shadow Removal(用于单幅图像阴影去除的自动曝光融合)
+ - [论文地址](https://arxiv.org/abs/2103.01255)
+ - [代码地址](https://github.com/tsingqguo/exposure-fusion-shadow-removal)<br><br>
 
-<a name="10.图像质量评价"></a>
-## 10.图像质量评价（Image Quality Assessment）
+<a name="10.图像翻译"></a>
+
+## 10.图像翻译（Image Translation）
+### Image-to-image Translation via Hierarchical Style Disentanglement
+ - [paper](https://arxiv.org/abs/2103.01456)
+ - [code](https://github.com/imlixinyang/HiSD)<br><br>
+
+### Encoding in Style: a StyleGAN Encoder for Image-to-Image Translation(样式编码：用于图像到图像翻译的StyleGAN编码器)<br>
+- [paper](https://arxiv.org/abs/2008.00951)
+- [code](https://github.com/eladrich/pixel2style2pixel)
+- [project](https://eladrich.github.io/pixel2style2pixel/)<br><br>
 
 <a name="11.插帧"></a>
 ## 11.插帧（Frame Interpolation）
@@ -185,13 +204,21 @@
 ### DeFMO: Deblurring and Shape Recovery of Fast Moving Objects
 - Paper：[hhttps://arxiv.org/abs/2012.00595](https://arxiv.org/abs/2012.00595)
 - Code：[https://github.com/rozumden/DeFMO](https://github.com/rozumden/DeFMO)
+
 <a name="12.视频压缩"></a>
 ## 12.视频压缩（Video Compression）
 ### MetaSCI: Scalable and Adaptive Reconstruction for Video Compressive Sensing
 - Paper：[https://arxiv.org/abs/2103.01786](https://arxiv.org/abs/2103.01786)
 - Code：[https://github.com/xyvirtualgroup/MetaSCI-CVPR2021](https://github.com/xyvirtualgroup/MetaSCI-CVPR2021)
 
-<a name="13.其他"></a>
+<a name="13.图像编辑"></a>
+## 13.图像编辑(Image Edit)
+### Anycost GANs for Interactive Image Synthesis and Editing(用于交互式图像合成和编辑的AnyCost Gans)<br>
+- [paper](https://arxiv.org/abs/2103.03243)
+- [code](https://github.com/mit-han-lab/anycost-gan)<br>
+
+### Exploiting Spatial Dimensions of Latent in GAN for Real-time Image Editing（利用GAN中潜在的空间维度进行实时图像编辑）<br>
+
 
 <a name="detection"/> 
 
@@ -202,20 +229,19 @@
 ### 图像目标检测(Image Object Detection)
 
 [1] [Semantic Relation Reasoning for Shot-Stable Few-Shot Object Detection(小样本目标检测的语义关系推理)](https://arxiv.org/abs/2103.01903)
-<br><br>
 
 [2] [UP-DETR: Unsupervised Pre-training for Object Detection with Transformers](https://arxiv.org/pdf/2011.09094.pdf)<br>
-  - 解读：[无监督预训练检测器](https://www.zhihu.com/question/432321109/answer/1606004872)<br><br>
+  - 解读：[无监督预训练检测器](https://www.zhihu.com/question/432321109/answer/1606004872)
   
-[3] Positive-Unlabeled Data Purification in the Wild for Object Detection(野外检测对象的阳性无标签数据提纯)<br><br>
+[3] Positive-Unlabeled Data Purification in the Wild for Object Detection(野外检测对象的阳性无标签数据提纯)
 
-[4] [General Instance Distillation for Object Detection(通用实例蒸馏技术在目标检测中的应用)](https://arxiv.org/abs/2103.02340)<br><br>
+[4] [General Instance Distillation for Object Detection(通用实例蒸馏技术在目标检测中的应用)](https://arxiv.org/abs/2103.02340)
 
 [5] [Instance Localization for Self-supervised Detection Pretraining(自监督检测预训练的实例定位)](https://arxiv.org/pdf/2102.08318.pdf)
-  - [code](https://github.com/limbo0000/InstanceLoc)<br><br>
+  - [code](https://github.com/limbo0000/InstanceLoc)
 
 [6] Multiple Instance Active Learning for Object Detection（用于对象检测的多实例主动学习）<br>
-[paper](https://github.com/yuantn/MIAL/raw/master/paper.pdf)|[code](https://github.com/yuantn/MIAL)<br><br>
+[paper](https://github.com/yuantn/MIAL/raw/master/paper.pdf)|[code](https://github.com/yuantn/MIAL)
 
 [7] Towards Open World Object Detection(开放世界中的目标检测)<br>
 [paper](Towards Open World Object Detection)|[code](https://github.com/JosephKJ/OWOD)<br><br>
@@ -335,74 +361,6 @@
 
 [1] MultiBodySync: Multi-Body Segmentation and Motion Estimation via 3D Scan Synchronization(通过3D扫描同步进行多主体分割和运动估计)<br>
 [paper](https://arxiv.org/pdf/2101.06605.pdf)|[code](https://github.com/huangjh-pub/multibody-sync)<br><br>
-
-<a name="DepthEstimation"/> 
-
-### 深度估计(Depth Estimation)
-
-<br>
-
-<a name="ImageProcessing"/> 
-
-## 图像处理(Image Processing)
-
-
-
-<a name="ImageRestoration"/> 
-
-###  图像复原(Image Restoration)/超分辨率(Super Resolution)
-
-[3] Multi-Stage Progressive Image Restoration(多阶段渐进式图像复原)<br>
-[paper](https://arxiv.org/abs/2102.02808)|[code](https://github.com/swz30/MPRNet)<br><br>
-
-[2] Data-Free Knowledge Distillation For Image Super-Resolution(DAFL算法的SR版本)<br><br>
-
-[1] AdderSR: Towards Energy Efficient Image Super-Resolution(将加法网路应用到图像超分辨率中)<br>
-[paper](https://arxiv.org/pdf/2009.08891.pdf)|[code](https://github.com/huawei-noah/AdderNet)<br>
-解读：[华为开源加法神经网络](https://zhuanlan.zhihu.com/p/113536045)<br><br>
-
-
-
-
-<a name="ISR"/> 
-
-### 图像阴影去除(Image Shadow Removal)
-
-[1] Auto-Exposure Fusion for Single-Image Shadow Removal(用于单幅图像阴影去除的自动曝光融合)<br>
-[paper](https://arxiv.org/abs/2103.01255)|[code](https://github.com/tsingqguo/exposure-fusion-shadow-removal)<br><br>
-
-
-
-<a name="ImageDenoising"/> 
-
-### 图像去噪/去模糊/去雨去雾(Image Denoising)
-
-[1] DeFMO: Deblurring and Shape Recovery of Fast Moving Objects(快速移动物体的去模糊和形状恢复)<br>
-[paper](https://arxiv.org/abs/2012.00595)|[code](https://github.com/rozumden/DeFMO)|[video](https://www.youtube.com/watch?v=pmAynZvaaQ4)<br><br>
-
-<a name="ImageEdit"/> 
-
-### 图像编辑(Image Edit)
-
-[2] Anycost GANs for Interactive Image Synthesis and Editing(用于交互式图像合成和编辑的AnyCost Gans)<br>
-[paper](https://arxiv.org/abs/2103.03243)|[code](https://github.com/mit-han-lab/anycost-gan)<br><br>
-
-[1] Exploiting Spatial Dimensions of Latent in GAN for Real-time Image Editing（利用GAN中潜在的空间维度进行实时图像编辑）<br><br>
-
-
-
-<a name="ImageTranslation"/> 
-
-### 图像翻译（Image Translation）
-
-
-[2] Image-to-image Translation via Hierarchical Style Disentanglement<br>
-[paper](https://arxiv.org/abs/2103.01456)|[code](https://github.com/imlixinyang/HiSD)<br><br>
-
-[1] Encoding in Style: a StyleGAN Encoder for Image-to-Image Translation(样式编码：用于图像到图像翻译的StyleGAN编码器)<br>
-[paper](https://arxiv.org/abs/2008.00951)|[code](https://github.com/eladrich/pixel2style2pixel)|[project](https://eladrich.github.io/pixel2style2pixel/)<br><br>
-
-<br>
 
 <a name="Face"/> 
 
