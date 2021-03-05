@@ -600,14 +600,14 @@
 
 ### 图神经网络(GNN)
 
-[2] Quantifying Explainers of Graph Neural Networks in Computational Pathology(计算病理学中图神经网络的量化解释器)<br>
-[paper](https://arxiv.org/pdf/2011.12646.pdf)<br><br>
+[2] Quantifying Explainers of Graph Neural Networks in Computational Pathology(计算病理学中图神经网络的量化解释器)
+- [paper](https://arxiv.org/pdf/2011.12646.pdf)
 
-[1] Sequential Graph Convolutional Network for Active Learning(主动学习的顺序图卷积网络)<br>
-[paper](https://arxiv.org/pdf/2006.10219.pdf)<br><br>
+[1] Sequential Graph Convolutional Network for Active Learning(主动学习的顺序图卷积网络)
+- [paper](https://arxiv.org/pdf/2006.10219.pdf)
 
 
-<br>
+
 
 <a name="DataProcessing"/> 
 
@@ -617,234 +617,234 @@
 
 ### 数据增广(Data Augmentation)
 
-[1] KeepAugment: A Simple Information-Preserving Data Augmentation(一种简单的保存信息的数据扩充)<br>
-[paper](https://arxiv.org/pdf/2011.11778.pdf)<br><br>
+[1] KeepAugment: A Simple Information-Preserving Data Augmentation(一种简单的保存信息的数据扩充)
+- [paper](https://arxiv.org/pdf/2011.11778.pdf)
 
 <a name="BatchNormalization"/> 
 
 ### 归一化/正则化(Batch Normalization)
 
-[3] Adaptive Consistency Regularization for Semi-Supervised Transfer Learning(半监督转移学习的自适应一致性正则化)<br>
-[paper](https://arxiv.org/abs/2103.02193)|[code](https://github.com/SHI-Labs/Semi-Supervised-Transfer-Learning)
+[3] Adaptive Consistency Regularization for Semi-Supervised Transfer Learning(半监督转移学习的自适应一致性正则化)
+- [paper](https://arxiv.org/abs/2103.02193)|[code](https://github.com/SHI-Labs/Semi-Supervised-Transfer-Learning)
 
-[2] Meta Batch-Instance Normalization for Generalizable Person Re-Identification(通用批处理人员重新标识的元批实例规范化)<br>
-[paper](https://arxiv.org/abs/2011.14670)<br><br>
+[2] Meta Batch-Instance Normalization for Generalizable Person Re-Identification(通用批处理人员重新标识的元批实例规范化)
+- [paper](https://arxiv.org/abs/2011.14670)
 
-[1] Representative Batch Normalization with Feature Calibration（具有特征校准功能的代表性批量归一化）<br><br>
+[1] Representative Batch Normalization with Feature Calibration（具有特征校准功能的代表性批量归一化）
 
 <a name="ImageClustering"/> 
 
 ### 图像聚类(Image Clustering)
 
-[2] Improving Unsupervised Image Clustering With Robust Learning（通过鲁棒学习改善无监督图像聚类）<br>
-[paper](https://arxiv.org/abs/2012.11150)|[code](https://github.com/deu30303/RUC)<br><br>
+[2] Improving Unsupervised Image Clustering With Robust Learning（通过鲁棒学习改善无监督图像聚类）
+- [paper](https://arxiv.org/abs/2012.11150)|[code](https://github.com/deu30303/RUC)
 
-[1] Reconsidering Representation Alignment for Multi-view Clustering(重新考虑多视图聚类的表示对齐方式)<br><br>
+[1] Reconsidering Representation Alignment for Multi-view Clustering(重新考虑多视图聚类的表示对齐方式)
 
-<br>
+
 
 <a name="ModelEvaluation"/> 
 
 ## 模型评估(Model Evaluation)
 
-[1] Are Labels Necessary for Classifier Accuracy Evaluation?(测试集没有标签，我们可以拿来测试模型吗？)<br>
-[paper](https://arxiv.org/abs/2007.02915)|[解读](https://zhuanlan.zhihu.com/p/328686799)<br><br>
+[1] Are Labels Necessary for Classifier Accuracy Evaluation?(测试集没有标签，我们可以拿来测试模型吗？)
+- [paper](https://arxiv.org/abs/2007.02915)|[解读](https://zhuanlan.zhihu.com/p/328686799)
 
 
-<br>
+
 
 <a name="Database"/> 
 
 ## 数据集(Database)
 
 
-[2] Towards Semantic Segmentation of Urban-Scale 3D Point Clouds: A Dataset, Benchmarks and Challenges(走向城市规模3D点云的语义分割：数据集，基准和挑战)<br>
-[paper](https://arxiv.org/abs/2009.03137)|[code](https://github.com/QingyongHu/SensatUrban)<br><br>
+[2] Towards Semantic Segmentation of Urban-Scale 3D Point Clouds: A Dataset, Benchmarks and Challenges(走向城市规模3D点云的语义分割：数据集，基准和挑战)
+- [paper](https://arxiv.org/abs/2009.03137)|[code](https://github.com/QingyongHu/SensatUrban)
 
-[1] Re-labeling ImageNet: from Single to Multi-Labels, from Global to Localized Labels（重新标记ImageNet：从单标签到多标签，从全局标签到本地标签）<br>
-[paper](https://arxiv.org/abs/2101.05022)|[code](https://github.com/naver-ai/relabel_imagenet)<br><br>
+[1] Re-labeling ImageNet: from Single to Multi-Labels, from Global to Localized Labels（重新标记ImageNet：从单标签到多标签，从全局标签到本地标签）
+- [paper](https://arxiv.org/abs/2101.05022)|[code](https://github.com/naver-ai/relabel_imagenet)
 
-<br>
+
 
 <a name="ActiveLearning"/> 
 
 ## 主动学习(Active Learning)
 
 
-[3] Vab-AL: Incorporating Class Imbalance and Difficulty with Variational Bayes for Active Learning<br>
-[paper](https://github.com/yuantn/MIAL/raw/master/paper.pdf)|[code](https://github.com/yuantn/MIAL)<br><br>
+[3] Vab-AL: Incorporating Class Imbalance and Difficulty with Variational Bayes for Active Learning
+- [paper](https://github.com/yuantn/MIAL/raw/master/paper.pdf)|[code](https://github.com/yuantn/MIAL)
 
-[2] Multiple Instance Active Learning for Object Detection（用于对象检测的多实例主动学习）<br>
-[paper](https://github.com/yuantn/MIAL/raw/master/paper.pdf)|[code](https://github.com/yuantn/MIAL)<br><br>
+[2] Multiple Instance Active Learning for Object Detection（用于对象检测的多实例主动学习）
+- [paper](https://github.com/yuantn/MIAL/raw/master/paper.pdf)|[code](https://github.com/yuantn/MIAL)
 
-[1] Sequential Graph Convolutional Network for Active Learning(主动学习的顺序图卷积网络)<br>
-[paper](https://arxiv.org/pdf/2006.10219.pdf)<br><br>
+[1] Sequential Graph Convolutional Network for Active Learning(主动学习的顺序图卷积网络)
+- [paper](https://arxiv.org/pdf/2006.10219.pdf)
 
-<br>
+
 
 <a name="Few-shotLearning"/> 
 
 ## 小样本学习(Few-shot Learning)/零样本
 
-[5] Few-Shot Segmentation Without Meta-Learning: A Good Transductive Inference Is All You Need?<br>
-[paper](https://arxiv.org/abs/2012.06166)|[code](https://github.com/mboudiaf/RePRI-for-Few-Shot-Segmentation)<br><br>
+[5] Few-Shot Segmentation Without Meta-Learning: A Good Transductive Inference Is All You Need?
+- [paper](https://arxiv.org/abs/2012.06166)|[code](https://github.com/mboudiaf/RePRI-for-Few-Shot-Segmentation)
 
-[4] Counterfactual Zero-Shot and Open-Set Visual Recognition(反事实零射和开集视觉识别)<br>
-[paper](https://arxiv.org/abs/2103.00887)|[code](https://github.com/yue-zhongqi/gcm-cf)<br><br>
+[4] Counterfactual Zero-Shot and Open-Set Visual Recognition(反事实零射和开集视觉识别)
+- [paper](https://arxiv.org/abs/2103.00887)|[code](https://github.com/yue-zhongqi/gcm-cf)
 
-[3] Semantic Relation Reasoning for Shot-Stable Few-Shot Object Detection(小样本目标检测的语义关系推理)<br>
-[paper](https://arxiv.org/abs/2103.01903)<br><br>
+[3] Semantic Relation Reasoning for Shot-Stable Few-Shot Object Detection(小样本目标检测的语义关系推理)
+- [paper](https://arxiv.org/abs/2103.01903)
 
-[2] Few-shot Open-set Recognition by Transformation Consistency(转换一致性很少的开放集识别)<br><br>
+[2] Few-shot Open-set Recognition by Transformation Consistency(转换一致性很少的开放集识别)
 
-[1] Exploring Complementary Strengths of Invariant and Equivariant Representations for Few-Shot Learning(探索少量学习的不变表示形式和等变表示形式的互补强度)<br>
-[paper](https://arxiv.org/abs/2103.01315)|<br>
+[1] Exploring Complementary Strengths of Invariant and Equivariant Representations for Few-Shot Learning(探索少量学习的不变表示形式和等变表示形式的互补强度)
+- [paper](https://arxiv.org/abs/2103.01315)|
 
-<br>
+
 
 <a name="ContinualLearning"/> 
 
 ## 持续学习(Continual Learning/Life-long Learning)
 
-[2] Rainbow Memory: Continual Learning with a Memory of Diverse Samples（不断学习与多样本的记忆）<br><br>
+[2] Rainbow Memory: Continual Learning with a Memory of Diverse Samples（不断学习与多样本的记忆）
 
-[1] Learning the Superpixel in a Non-iterative and Lifelong Manner(以非迭代和终身的方式学习超像素)<br><br>
+[1] Learning the Superpixel in a Non-iterative and Lifelong Manner(以非迭代和终身的方式学习超像素)
 
 
-<br><br>
+
 
 <a name="VisualReasoning"/> 
 
 ## 视觉推理(Visual Reasoning)
 
-[1] Transformation Driven Visual Reasoning(转型驱动的视觉推理)<br>
-[paper](https://arxiv.org/pdf/2011.13160.pdf)|[code](https://github.com/hughplay/TVR)|[project](https://hongxin2019.github.io/TVR/)<br>
+[1] Transformation Driven Visual Reasoning(转型驱动的视觉推理)
+- [paper](https://arxiv.org/pdf/2011.13160.pdf)|[code](https://github.com/hughplay/TVR)|[project](https://hongxin2019.github.io/TVR/)
 
 
-<br><br>
+
 
 <a name="domain"/> 
 
 ## 迁移学习/domain/自适应](#domain)
 
-[4] Continual Adaptation of Visual Representations via Domain Randomization and Meta-learning(通过域随机化和元学习对视觉表示进行连续调整)<br>
-[paper](https://arxiv.org/abs/2012.04324)<br><br>
+[4] Continual Adaptation of Visual Representations via Domain Randomization and Meta-learning(通过域随机化和元学习对视觉表示进行连续调整)
+- [paper](https://arxiv.org/abs/2012.04324)
 
-[3] Domain Generalization via Inference-time Label-Preserving Target Projections(基于推理时间保标目标投影的区域泛化)<br>
-[paper](https://arxiv.org/abs/2103.01134)<br><br>
+[3] Domain Generalization via Inference-time Label-Preserving Target Projections(基于推理时间保标目标投影的区域泛化)
+- [paper](https://arxiv.org/abs/2103.01134)
 
-[2] MetaSCI: Scalable and Adaptive Reconstruction for Video Compressive  Sensing(可伸缩的自适应视频压缩传感重建)<br>
-[paper](https://arxiv.org/abs/2103.01786)|[code](https://github.com/xyvirtualgroup/MetaSCI-CVPR2021)<br><br>
+[2] MetaSCI: Scalable and Adaptive Reconstruction for Video Compressive  Sensing(可伸缩的自适应视频压缩传感重建)
+- [paper](https://arxiv.org/abs/2103.01786)|[code](https://github.com/xyvirtualgroup/MetaSCI-CVPR2021)
 
-[1] FSDR: Frequency Space Domain Randomization for Domain Generalization(用于域推广的频域随机化)<br>
-[paper](https://arxiv.org/abs/2103.02370)<br><br>
+[1] FSDR: Frequency Space Domain Randomization for Domain Generalization(用于域推广的频域随机化)
+- [paper](https://arxiv.org/abs/2103.02370)
 
-<br><br>
+
 
 <a name="ContrastiveLearning)"/> 
 
 ## 对比学习(Contrastive Learning)
 
-[1] Fine-grained Angular Contrastive Learning with Coarse Labels(粗标签的细粒度角度对比学习)<br>
-[paper](https://arxiv.org/abs/2012.03515)<br><br>
+[1] Fine-grained Angular Contrastive Learning with Coarse Labels(粗标签的细粒度角度对比学习)
+- [paper](https://arxiv.org/abs/2012.03515)
 
-<br><br>
+
 <a name="ImageRetrieval"/> 
 
 ## 图像视频检索(Image Retrieval)
 
-[1] QAIR: Practical Query-efficient Black-Box Attacks for Image Retrieval(实用的查询高效的图像检索黑盒攻击)<br>
-[paper](https://arxiv.org/abs/2103.02927)<br><br>
+[1] QAIR: Practical Query-efficient Black-Box Attacks for Image Retrieval(实用的查询高效的图像检索黑盒攻击)
+- [paper](https://arxiv.org/abs/2103.02927)
 
-<br><br>
+
 
 <a name="100"/> 
 
 ## 暂无分类
 
-Learning Asynchronous and Sparse Human-Object Interaction in Videos(视频中异步稀疏人-物交互的学习)<br>
-[paper](https://arxiv.org/abs/2103.02758)<br><br>
+Learning Asynchronous and Sparse Human-Object Interaction in Videos(视频中异步稀疏人-物交互的学习)
+- [paper](https://arxiv.org/abs/2103.02758)
 
-Self-supervised Geometric Perception(自我监督的几何知觉)<br>
-[paper](https://arxiv.org/abs/2103.03114)<br><br>
+Self-supervised Geometric Perception(自我监督的几何知觉)
+- [paper](https://arxiv.org/abs/2103.03114)
 
-Quantifying Explainers of Graph Neural Networks in Computational Pathology(计算病理学中图神经网络的量化解释器)<br>
-[paper](https://arxiv.org/pdf/2011.12646.pdf)<br><br>
+Quantifying Explainers of Graph Neural Networks in Computational Pathology(计算病理学中图神经网络的量化解释器)
+- [paper](https://arxiv.org/pdf/2011.12646.pdf)
 
-Exploring Data-Efficient 3D Scene Understanding with Contrastive Scene Contexts(探索具有对比场景上下文的数据高效3D场景理解)<br>
-[paper](http://arxiv.org/abs/2012.09165)|[project](http://sekunde.github.io/project_efficient)|[video](http://youtu.be/E70xToZLgs4)<br><br>
+Exploring Data-Efficient 3D Scene Understanding with Contrastive Scene Contexts(探索具有对比场景上下文的数据高效3D场景理解)
+- [paper](http://arxiv.org/abs/2012.09165)|[project](http://sekunde.github.io/project_efficient)|[video](http://youtu.be/E70xToZLgs4)
 
-Data-Free Model Extraction(无数据模型提取)<br>
-[paper](https://arxiv.org/abs/2011.14779)<br>
+Data-Free Model Extraction(无数据模型提取)
+- [paper](https://arxiv.org/abs/2011.14779)
 
-Patch-NetVLAD: Multi-Scale Fusion of Locally-Global Descriptors for Place Recognition(用于【位置识别】的局部全局描述符的【多尺度融合】)<br>
-[paper](https://arxiv.org/pdf/2103.01486.pdf)|[code](https://github.com/QVPR/Patch-NetVLAD)<br><br>
+Patch-NetVLAD: Multi-Scale Fusion of Locally-Global Descriptors for Place Recognition(用于【位置识别】的局部全局描述符的【多尺度融合】)
+- [paper](https://arxiv.org/pdf/2103.01486.pdf)|[code](https://github.com/QVPR/Patch-NetVLAD)
 
-Right for the Right Concept: Revising Neuro-Symbolic Concepts by Interacting with their Explanations(适用于正确概念的权利：通过可解释性来修正神经符号概念)<br>
-[paper](https://arxiv.org/abs/2011.12854)<br><br>
+Right for the Right Concept: Revising Neuro-Symbolic Concepts by Interacting with their Explanations(适用于正确概念的权利：通过可解释性来修正神经符号概念)
+- [paper](https://arxiv.org/abs/2011.12854)
 
-Multi-Objective Interpolation Training for Robustness to Label Noise(多目标插值训练的鲁棒性)<br>
-[paper](https://arxiv.org/abs/2012.04462)|[code](https://git.io/JI40X)<br><br>
+Multi-Objective Interpolation Training for Robustness to Label Noise(多目标插值训练的鲁棒性)
+- [paper](https://arxiv.org/abs/2012.04462)|[code](https://git.io/JI40X)
 
-VX2TEXT: End-to-End Learning of Video-Based Text Generation From Multimodal Inputs(【文本生成】VX2TEXT：基于视频的文本生成的端到端学习来自多模式输入)<br>
-[paper](https://arxiv.org/pdf/2101.12059.pdf)<br><br>
+VX2TEXT: End-to-End Learning of Video-Based Text Generation From Multimodal Inputs(【文本生成】VX2TEXT：基于视频的文本生成的端到端学习来自多模式输入)
+- [paper](https://arxiv.org/pdf/2101.12059.pdf)
 
 Scan2Cap: Context-aware Dense Captioning in RGB-D Scans(【图像字幕】Scan2Cap：RGB-D扫描中的上下文感知密集字幕)
-[paper](https://arxiv.org/abs/2012.02206)|[code](https://github.com/daveredrum/Scan2Cap)|[project](https://daveredrum.github.io/Scan2Cap/)|[video](https://youtu.be/AgmIpDbwTCY)<br><br>
+- [paper](https://arxiv.org/abs/2012.02206)|[code](https://github.com/daveredrum/Scan2Cap)|[project](https://daveredrum.github.io/Scan2Cap/)|[video](https://youtu.be/AgmIpDbwTCY)
 
-Hierarchical and Partially Observable Goal-driven Policy Learning with  Goals Relational Graph(基于目标关系图的分层部分可观测目标驱动策略学习)<br>
-[paper](https://arxiv.org/abs/2103.01350)<br><br>
+Hierarchical and Partially Observable Goal-driven Policy Learning with  Goals Relational Graph(基于目标关系图的分层部分可观测目标驱动策略学习)
+- [paper](https://arxiv.org/abs/2103.01350)
 
-ID-Unet: Iterative Soft and Hard Deformation for View Synthesis(视图合成的迭代软硬变形)<br>
-[paper](https://arxiv.org/abs/2103.02264)<br><br>
+ID-Unet: Iterative Soft and Hard Deformation for View Synthesis(视图合成的迭代软硬变形)
+- [paper](https://arxiv.org/abs/2103.02264)
 
-PML: Progressive Margin Loss for Long-tailed Age Classification(【长尾分布】【图像分类】长尾年龄分类的累进边际损失)<br>
-[paper](https://arxiv.org/abs/2103.02140)<br><br>
+PML: Progressive Margin Loss for Long-tailed Age Classification(【长尾分布】【图像分类】长尾年龄分类的累进边际损失)
+- [paper](https://arxiv.org/abs/2103.02140)
 
-Diversifying Sample Generation for Data-Free Quantization（【图像生成】多样化的样本生成，实现无数据量化）<br>
-[paper](https://arxiv.org/abs/2103.01049)<br><br>
+Diversifying Sample Generation for Data-Free Quantization（【图像生成】多样化的样本生成，实现无数据量化）
+- [paper](https://arxiv.org/abs/2103.01049)
 
-Domain Generalization via Inference-time Label-Preserving Target Projections（通过保留推理时间的目标投影进行域泛化）<br>
-[paper](https://arxiv.org/pdf/2103.01134.pdf)<br><br>
+Domain Generalization via Inference-time Label-Preserving Target Projections（通过保留推理时间的目标投影进行域泛化）
+- [paper](https://arxiv.org/pdf/2103.01134.pdf)
 
-DeRF: Decomposed Radiance Fields（分解的辐射场）<br>
-[project](https://ubc-vision.github.io/derf/)<br><br>
+DeRF: Decomposed Radiance Fields（分解的辐射场）
+[project](https://ubc-vision.github.io/derf/)
 
-Densely connected multidilated convolutional networks for dense prediction tasks（【密集预测】密集连接的多重卷积网络，用于密集的预测任务）<br>
-[paper](https://arxiv.org/abs/2011.11844)<br><br>
+Densely connected multidilated convolutional networks for dense prediction tasks（【密集预测】密集连接的多重卷积网络，用于密集的预测任务）
+- [paper](https://arxiv.org/abs/2011.11844)
 
-VirTex: Learning Visual Representations from Textual Annotations（【表示学习】从文本注释中学习视觉表示）<br>
-[paper](https://arxiv.org/abs/2006.06666)|[code](https://github.com/kdexd/virtex)<br><br>
+VirTex: Learning Visual Representations from Textual Annotations（【表示学习】从文本注释中学习视觉表示）
+- [paper](https://arxiv.org/abs/2006.06666)|[code](https://github.com/kdexd/virtex)
 
-Weakly-supervised Grounded Visual Question Answering using Capsules（使用胶囊进行弱监督的地面视觉问答）<br><br>
+Weakly-supervised Grounded Visual Question Answering using Capsules（使用胶囊进行弱监督的地面视觉问答）
 
-FLAVR: Flow-Agnostic Video Representations for Fast Frame Interpolation（【视频插帧】FLAVR：用于快速帧插值的与流无关的视频表示）<br>
-[paper](https://arxiv.org/pdf/2012.08512.pdf)|[code](https://tarun005.github.io/FLAVR/Code)|[project](https://tarun005.github.io/FLAVR/)<br><br>
+FLAVR: Flow-Agnostic Video Representations for Fast Frame Interpolation（【视频插帧】FLAVR：用于快速帧插值的与流无关的视频表示）
+- [paper](https://arxiv.org/pdf/2012.08512.pdf)|[code](https://tarun005.github.io/FLAVR/Code)|[project](https://tarun005.github.io/FLAVR/)
 
-Probabilistic Embeddings for Cross-Modal Retrieval（跨模态检索的概率嵌入）<br>
-[paper](https://arxiv.org/abs/2101.05068)<br><br>
+Probabilistic Embeddings for Cross-Modal Retrieval（跨模态检索的概率嵌入）
+- [paper](https://arxiv.org/abs/2101.05068)
 
-Self-supervised Simultaneous Multi-Step Prediction of Road Dynamics and Cost Map(道路动力学和成本图的自监督式多步同时预测)<br><br>
+Self-supervised Simultaneous Multi-Step Prediction of Road Dynamics and Cost Map(道路动力学和成本图的自监督式多步同时预测)
 
-IIRC: Incremental Implicitly-Refined Classification(增量式隐式定义的分类)<br>
-[paper](https://arxiv.org/abs/2012.12477)|[project](https://chandar-lab.github.io/IIRC/)<br><br>
+IIRC: Incremental Implicitly-Refined Classification(增量式隐式定义的分类)
+- [paper](https://arxiv.org/abs/2012.12477)|[project](https://chandar-lab.github.io/IIRC/)
 
-Fair Attribute Classification through Latent Space De-biasing(通过潜在空间去偏的公平属性分类)<br>
-[paper](https://arxiv.org/abs/2012.01469)|[code](https://github.com/princetonvisualai/gan-debiasing)|[project](https://princetonvisualai.github.io/gan-debiasing/)<br><br>
+Fair Attribute Classification through Latent Space De-biasing(通过潜在空间去偏的公平属性分类)
+- [paper](https://arxiv.org/abs/2012.01469)|[code](https://github.com/princetonvisualai/gan-debiasing)|[project](https://princetonvisualai.github.io/gan-debiasing/)
 
-Information-Theoretic Segmentation by Inpainting Error Maximization(修复误差最大化的信息理论分割)<br>
-[paper](https://arxiv.org/abs/2012.07287)<br><br>
+Information-Theoretic Segmentation by Inpainting Error Maximization(修复误差最大化的信息理论分割)
+- [paper](https://arxiv.org/abs/2012.07287)
 
-UC2: Universal Cross-lingual Cross-modal Vision-and-Language Pretraining(【视频语言学习】UC2：通用跨语言跨模态视觉和语言预培训)<br><br>
+UC2: Universal Cross-lingual Cross-modal Vision-and-Language Pretraining(【视频语言学习】UC2：通用跨语言跨模态视觉和语言预培训)
 
-Less is More: CLIPBERT for Video-and-Language Learning via Sparse Sampling(通过稀疏采样进行视频和语言学习)<br>
-[paper](https://arxiv.org/pdf/2102.06183.pdf)|[code](https://github.com/jayleicn/ClipBERT)<br><br>
+Less is More: CLIPBERT for Video-and-Language Learning via Sparse Sampling(通过稀疏采样进行视频和语言学习)
+- [paper](https://arxiv.org/pdf/2102.06183.pdf)|[code](https://github.com/jayleicn/ClipBERT)
 
-D-NeRF: Neural Radiance Fields for Dynamic Scenes(D-NeRF：动态场景的神经辐射场)<br>
-[paper](https://arxiv.org/abs/2011.13961)|[project](https://www.albertpumarola.com/research/D-NeRF/index.html)<br><br>
+D-NeRF: Neural Radiance Fields for Dynamic Scenes(D-NeRF：动态场景的神经辐射场)
+- [paper](https://arxiv.org/abs/2011.13961)|[project](https://www.albertpumarola.com/research/D-NeRF/index.html)
 
-Weakly Supervised Learning of Rigid 3D Scene Flow(刚性3D场景流的弱监督学习)<br>
-[paper](https://arxiv.org/pdf/2102.08945.pdf)|[code](https://arxiv.org/pdf/2102.08945.pdf)|[project](https://3dsceneflow.github.io/)<br><br>
+Weakly Supervised Learning of Rigid 3D Scene Flow(刚性3D场景流的弱监督学习)
+- [paper](https://arxiv.org/pdf/2102.08945.pdf)|[code](https://arxiv.org/pdf/2102.08945.pdf)|[project](https://3dsceneflow.github.io/)
 
 <br>
 
@@ -852,69 +852,70 @@ Weakly Supervised Learning of Rigid 3D Scene Flow(刚性3D场景流的弱监督�
 
 ## 2. CVPR2021 Oral
 
-[23] Self-supervised Geometric Perception(自我监督的几何知觉)<br>
-[paper](https://arxiv.org/abs/2103.03114)<br><br>
+[23] Self-supervised Geometric Perception(自我监督的几何知觉)
+- [paper](https://arxiv.org/abs/2103.03114)
 
-[22] DeepTag: An Unsupervised Deep Learning Method for Motion Tracking on  Cardiac Tagging Magnetic Resonance Images(一种心脏标记磁共振图像运动跟踪的无监督深度学习方法)<br>
-[paper](https://arxiv.org/abs/2103.02772)<br><br>
+[22] DeepTag: An Unsupervised Deep Learning Method for Motion Tracking on  Cardiac Tagging Magnetic Resonance Images(一种心脏标记磁共振图像运动跟踪的无监督深度学习方法)
+- [paper](https://arxiv.org/abs/2103.02772)
 
-[21] Modeling Multi-Label Action Dependencies for Temporal Action Localization(为时间动作本地化建模多标签动作相关性)<br>
-[paper](https://arxiv.org/pdf/2103.03027.pdf)<br><br>
+[21] Modeling Multi-Label Action Dependencies for Temporal Action Localization(为时间动作本地化建模多标签动作相关性)
+- [paper](https://arxiv.org/pdf/2103.03027.pdf)
 
-[20] HPS: localizing and tracking people in large 3D scenes from wearable sensors(通过可穿戴式传感器对大型3D场景中的人进行定位和跟踪)<br><br>
+[20] HPS: localizing and tracking people in large 3D scenes from wearable sensors(通过可穿戴式传感器对大型3D场景中的人进行定位和跟踪)
 
-[19] Real-Time High Resolution Background Matting(实时高分辨率背景抠像)<br>
-[paper](https://arxiv.org/abs/2012.07810)|[code](https://github.com/PeterL1n/BackgroundMattingV2)|[project](https://grail.cs.washington.edu/projects/background-matting-v2/)|[video](https://youtu.be/oMfPTeYDF9g)<br><br>
+[19] Real-Time High Resolution Background Matting(实时高分辨率背景抠像)
+- [paper](https://arxiv.org/abs/2012.07810)|[code](https://github.com/PeterL1n/BackgroundMattingV2)|[project](https://grail.cs.washington.edu/projects/background-matting-v2/)|[video](https://youtu.be/oMfPTeYDF9g)
 
-[18] Exploring Data-Efficient 3D Scene Understanding with Contrastive Scene Contexts(探索具有对比场景上下文的数据高效3D场景理解)<br>
-[paper](http://arxiv.org/abs/2012.09165)|[project](http://sekunde.github.io/project_efficient)|[video](http://youtu.be/E70xToZLgs4)<br><br>
+[18] Exploring Data-Efficient 3D Scene Understanding with Contrastive Scene Contexts(探索具有对比场景上下文的数据高效3D场景理解)
+- [paper](http://arxiv.org/abs/2012.09165)|[project](http://sekunde.github.io/project_efficient)|[video](http://youtu.be/E70xToZLgs4)
 
-[17] Robust Neural Routing Through Space Partitions for Camera Relocalization in Dynamic Indoor Environments(在动态室内环境中，通过空间划分的鲁棒神经路由可实现摄像机的重新定位)<br>
-[paper](https://arxiv.org/abs/2012.04746)|[project](https://ai.stanford.edu/~hewang/)<br><br>
+[17] Robust Neural Routing Through Space Partitions for Camera Relocalization in Dynamic Indoor Environments(在动态室内环境中，通过空间划分的鲁棒神经路由可实现摄像机的重新定位)
+- [paper](https://arxiv.org/abs/2012.04746)|[project](https://ai.stanford.edu/~hewang/)
 
-[16] MultiBodySync: Multi-Body Segmentation and Motion Estimation via 3D Scan Synchronization(通过3D扫描同步进行多主体分割和运动估计)<br>
-[paper](https://arxiv.org/pdf/2101.06605.pdf)|[code](https://github.com/huangjh-pub/multibody-sync)<br><br>
+[16] MultiBodySync: Multi-Body Segmentation and Motion Estimation via 3D Scan Synchronization(通过3D扫描同步进行多主体分割和运动估计)
+- [paper](https://arxiv.org/pdf/2101.06605.pdf)|[code](https://github.com/huangjh-pub/multibody-sync)
 
-[15] Categorical Depth Distribution Network for Monocular 3D Object Detection(用于单目三维目标检测的分类深度分布网络)<br>
-[paper](https://arxiv.org/abs/2103.01100)<br><br>
+[15] Categorical Depth Distribution Network for Monocular 3D Object Detection(用于单目三维目标检测的分类深度分布网络)
+- [paper](https://arxiv.org/abs/2103.01100)
 
-[14] PatchmatchNet: Learned Multi-View Patchmatch Stereo(学习多视图立体声)<br>
-[paper](https://arxiv.org/abs/2012.01411)|[code](https://github.com/FangjinhuaWang/PatchmatchNet)
+[14] PatchmatchNet: Learned Multi-View Patchmatch Stereo(学习多视图立体声)
+- [paper](https://arxiv.org/abs/2012.01411)|[code](https://github.com/FangjinhuaWang/PatchmatchNet)
 
-[13] Continual Adaptation of Visual Representations via Domain Randomization and Meta-learning(通过域随机化和元学习对视觉表示进行连续调整)<br>
-[paper](https://arxiv.org/abs/2012.04324)<br><br>
+[13] Continual Adaptation of Visual Representations via Domain Randomization and Meta-learning(通过域随机化和元学习对视觉表示进行连续调整)
+- [paper](https://arxiv.org/abs/2012.04324)
 
-[12] Single-Stage Instance Shadow Detection with Bidirectional Relation Learning(具有双向关系学习的单阶段实例阴影检测)<br><br>
+[12] Single-Stage Instance Shadow Detection with Bidirectional Relation Learning(具有双向关系学习的单阶段实例阴影检测)
 
-[11] Neural Geometric Level of Detail:Real-time Rendering with Implicit 3D Surfaces(神经几何细节水平：隐式3D曲面的实时渲染)<br>
-[paper](https://arxiv.org/abs/2101.10994)|[code](https://github.com/nv-tlabs/nglod)|[project](https://nv-tlabs.github.io/nglod/)<br><br>
+[11] Neural Geometric Level of Detail:Real-time Rendering with Implicit 3D Surfaces(神经几何细节水平：隐式3D曲面的实时渲染)
+- [paper](https://arxiv.org/abs/2101.10994)|[code](https://github.com/nv-tlabs/nglod)|[project](https://nv-tlabs.github.io/nglod/)
 
-[9] PREDATOR: Registration of 3D Point Clouds with Low Overlap(预测器：低重叠的3D点云的注册)<br>
-[paper](https://arxiv.org/pdf/2011.13005.pdf)|[code](https://github.com/ShengyuH/OverlapPredator)|[project](https://overlappredator.github.io/)<br><br>
+[9] PREDATOR: Registration of 3D Point Clouds with Low Overlap(预测器：低重叠的3D点云的注册)
+- [paper](https://arxiv.org/pdf/2011.13005.pdf)|[code](https://github.com/ShengyuH/OverlapPredator)|[project](https://overlappredator.github.io/)
 
-[8] Domain Generalization via Inference-time Label-Preserving Target Projections(通过保留推理时间的目标投影进行域泛化)<br>
-[paper](https://arxiv.org/abs/2103.01134)<br><br>
+[8] Domain Generalization via Inference-time Label-Preserving Target Projections(通过保留推理时间的目标投影进行域泛化)
+- [paper](https://arxiv.org/abs/2103.01134)
 
-[7] Neural Deformation Graphs for Globally-consistent Non-rigid Reconstruction(全局一致的非刚性重建的神经变形图)<br>
-[paper](https://arxiv.org/abs/2012.01451)|[project](https://aljazbozic.github.io/neural_deformation_graphs/)|[video](https://youtu.be/vyq36eFkdWo)<br><br>
+[7] Neural Deformation Graphs for Globally-consistent Non-rigid Reconstruction(全局一致的非刚性重建的神经变形图)
+- [paper](https://arxiv.org/abs/2012.01451)|[project](https://aljazbozic.github.io/neural_deformation_graphs/)|[video](https://youtu.be/vyq36eFkdWo)
 
-[6] Fine-grained Angular Contrastive Learning with Coarse Labels(粗标签的细粒度角度对比学习)<br>
-[paper](https://arxiv.org/abs/2012.03515)<br><br>
+[6] Fine-grained Angular Contrastive Learning with Coarse Labels(粗标签的细粒度角度对比学习)
+- [paper](https://arxiv.org/abs/2012.03515)
 
-[5] Less is More: CLIPBERT for Video-and-Language Learning via Sparse Sampling(通过稀疏采样进行视频和语言学习)<br>
-[paper](https://arxiv.org/pdf/2102.06183.pdf)|[code](https://github.com/jayleicn/ClipBERT)<br><br>
+[5] Less is More: CLIPBERT for Video-and-Language Learning via Sparse Sampling(通过稀疏采样进行视频和语言学习)
+- [paper](https://arxiv.org/pdf/2102.06183.pdf)|[code](https://github.com/jayleicn/ClipBERT)
 
-[4] Cross-View Regularization for Domain Adaptive Panoptic Segmentation(用于域自适应全景分割的跨视图正则化)<br>
-[paper](https://arxiv.org/abs/2103.02584)<br><br>
+[4] Cross-View Regularization for Domain Adaptive Panoptic Segmentation(用于域自适应全景分割的跨视图正则化)
+- [paper](https://arxiv.org/abs/2103.02584)
 
-[3] Image-to-image Translation via Hierarchical Style Disentanglement(通过分层样式分解实现图像到图像的翻译)<br>
-[paper](https://arxiv.org/abs/2103.01456)|[code](https://github.com/imlixinyang/HiSD)<br><br>
+[3] Image-to-image Translation via Hierarchical Style Disentanglement(通过分层样式分解实现图像到图像的翻译)
+- [paper](https://arxiv.org/abs/2103.01456)|[code](https://github.com/imlixinyang/HiSD)
 
-[2] Towards Open World Object Detection(开放世界中的目标检测)<br>
-[paper](Towards Open World Object Detection)|[code](https://github.com/JosephKJ/OWOD)<br><br>
+[2] Towards Open World Object Detection(开放世界中的目标检测)
+- [paper](Towards Open World Object Detection)|[code](https://github.com/JosephKJ/OWOD)
 
-[1] End-to-End Video Instance Segmentation with Transformers(使用Transformer的端到端视频实例分割) <br>
-[paper](https://arxiv.org/abs/2011.14503)<br><br>
+[1] End-to-End Video Instance Segmentation with Transformers(使用Transformer的端到端视频实例分割) 
+- [paper](https://arxiv.org/abs/2011.14503)
+
 
 <br>
 
@@ -929,5 +930,4 @@ Weakly Supervised Learning of Rigid 3D Scene Flow(刚性3D场景流的弱监督�
 * 
 
 <br>
-
 
