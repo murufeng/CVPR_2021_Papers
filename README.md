@@ -61,6 +61,7 @@
 * [三维重建(3D Reconstruction)](#3DReconstruction)<br>
 
 ## 模型架构与数据处理（主要包括：Transformer，Backbone，NAS，模型压缩，模型评估）
+### [BackBone](#Backbone)
 
 ### [Transformer](#Transformer)
 
@@ -96,10 +97,12 @@
 ### [对比学习(Contrastive Learning)](#ContrastiveLearning)
 
 ### [图像/视频检索(Image Retrieval)](#ImageRetrieval)
+
+#### [暂无分类](#100)
 <br>
 
-## 3. CVPR2021的论文解读
- - [论文解读](#Reading)
+## CVPR2021的论文解读汇总
+ - [论文解读](#300)
 
 <br><br>
 
@@ -424,7 +427,6 @@
 [paper](https://arxiv.org/abs/2011.14670)<br><br>
 
 <br>
-
 <a name="MedicalImaging"/> 
 
 ## 医学影像(Medical Imaging)
@@ -449,14 +451,14 @@
 
 ## 神经网络架构搜索(NAS)
 
-[3] AttentiveNAS: Improving Neural Architecture Search via Attentive(通过注意力改善神经架构搜索) <br>
-[paper](https://arxiv.org/pdf/2011.09011.pdf)<br><br>
+[3] AttentiveNAS: Improving Neural Architecture Search via Attentive(通过注意力改善神经架构搜索) 
+- [paper](https://arxiv.org/pdf/2011.09011.pdf)
 
-[2] ReNAS: Relativistic Evaluation of Neural Architecture Search(NAS predictor当中ranking loss的重要性)<br>
-[paper](https://arxiv.org/pdf/1910.01523.pdf)<br><br>
+[2] ReNAS: Relativistic Evaluation of Neural Architecture Search(NAS predictor当中ranking loss的重要性)
+- [paper](https://arxiv.org/pdf/1910.01523.pdf)
 
-[1] HourNAS: Extremely Fast Neural Architecture Search Through an Hourglass Lens（降低NAS的成本）<br>
-[paper](https://arxiv.org/pdf/2005.14446.pdf)<br><br>
+[1] HourNAS: Extremely Fast Neural Architecture Search Through an Hourglass Lens（降低NAS的成本）
+- [paper](https://arxiv.org/pdf/2005.14446.pdf)
 
 <br>
 
@@ -552,6 +554,23 @@
 [paper](https://arxiv.org/abs/2011.11108)<br><br>
 
 [1] Distilling Object Detectors via Decoupled Features（前景背景分离的蒸馏技术） <br><br>
+
+<br>
+
+<a name="BackBone"/> 
+
+## BackBone
+### Coordinate Attention for Efficient Mobile Network Design
+- Paper: https://arxiv.org/abs/2103.02907
+- Code: https://github.com/Andrew-Qibin/CoordAttention
+
+### Inception Convolution with Efficient Dilation Search
+- Paper: https://arxiv.org/abs/2012.13587
+- Code: None
+
+### RepVGG: Making VGG-style ConvNets Great Again
+- Paper: https://arxiv.org/abs/2101.03697
+- Code: https://github.com/DingXiaoH/RepVGG
 
 <br>
 
@@ -907,8 +926,8 @@ Weakly Supervised Learning of Rigid 3D Scene Flow(刚性3D场景流的弱监督�
 
 <br>
 
-<a name="Reading"/> 
-## 3. CVPR2021的论文解读
+<a name="300"/> 
+### CVPR2021的论文解读
 
 * [CVPR 2021 | GFLV2：目标检测良心技术，无Cost涨点!](https://zhuanlan.zhihu.com/p/313684358)
 * [CVPR 2021 | 上交和国科大提出DCL：旋转目标检测新方法](https://zhuanlan.zhihu.com/p/354373013)
