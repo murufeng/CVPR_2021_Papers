@@ -62,7 +62,7 @@
 
 ## 模型架构与数据处理（主要包括：Transformer，Backbone，NAS，模型压缩，模型评估）
 
-### [Transformer](#Transformer)<br>
+### [Transformer](#Transformer)
 
 ### [神经网络架构(Neural Network Structure)](#NNS)
 * [图神经网络(GNN)](#GNN)<br>
@@ -112,9 +112,9 @@
 - Code：[https://github.com/LongguangWang/DASR](https://github.com/LongguangWang/DASR)
 
 ### Data-Free Knowledge Distillation For Image Super-Resolution
+
 ### AdderSR: Towards Energy Efficient Image Super-Resolution
 - Paper：[https://arxiv.org/abs/2009.08891](https://arxiv.org/abs/2009.08891)
-- Code：
 
 ### Exploring Sparsity in Image Super-Resolution for Efficient Inference
 - Paper：[https://arxiv.org/abs/2006.09603](https://arxiv.org/abs/2006.09603)
@@ -125,9 +125,9 @@
 
 ### Cross-MPI: Cross-scale Stereo for Image Super-Resolution using Multiplane Images
 - Paper：[https://arxiv.org/abs/2011.14631](https://arxiv.org/abs/2011.14631)
-- Code：
 - Homepage：[http://www.liuyebin.com/crossMPI/crossMPI.html](http://www.liuyebin.com/crossMPI/crossMPI.html)
 - Analysis：[CVPR 2021，Cross-MPI以底层场景结构为线索的端到端网络，在大分辨率（x8）差距下也可完成高保真的超分辨率](https://zhuanlan.zhihu.com/p/354752197)
+
 <a name="2.图像去雨"></a>
 ## 2.图像去雨（Image Deraining）
 
@@ -136,10 +136,10 @@
 
 <a name="4.去模糊"></a>
 ## 4.去模糊（Deblurring）
-### DeFMO: Deblurring and Shape Recovery of Fast Moving Objects(快速移动物体的去模糊和形状恢复)<br>
+### DeFMO: Deblurring and Shape Recovery of Fast Moving Objects(快速移动物体的去模糊和形状恢复)
 - [paper](https://arxiv.org/abs/2012.00595)
 - [code](https://github.com/rozumden/DeFMO)
-- [video](https://www.youtube.com/watch?v=pmAynZvaaQ4)<br>
+- [video](https://www.youtube.com/watch?v=pmAynZvaaQ4)
 
 <a name="5.去噪"></a>
 ## 5.去噪（Denoising）
@@ -154,24 +154,27 @@
 - Paper：[https://arxiv.org/abs/2012.09491](https://arxiv.org/abs/2012.09491)
 - Code：[https://github.com/transcendentsky/Film-Recovery](https://github.com/transcendentsky/Film-Recovery)
 
-### Data-Free Knowledge Distillation For Image Super-Resolution(DAFL算法的SR版本)<br><br>
+### Data-Free Knowledge Distillation For Image Super-Resolution(DAFL算法的SR版本)
 
-### AdderSR: Towards Energy Efficient Image Super-Resolution(将加法网路应用到图像超分辨率中)<br>
+### AdderSR: Towards Energy Efficient Image Super-Resolution(将加法网路应用到图像超分辨率中)
 - 论文地址:[https://arxiv.org/pdf/2009.08891.pdf](https://arxiv.org/pdf/2009.08891.pdf)
-- 代码地址:[https://github.com/huawei-noah/AdderNet](https://github.com/huawei-noah/AdderNet)<br>
-- 解读：[华为开源加法神经网络](https://zhuanlan.zhihu.com/p/113536045)<br><br>
+- 代码地址:[https://github.com/huawei-noah/AdderNet](https://github.com/huawei-noah/AdderNet)
+- 解读：[华为开源加法神经网络](https://zhuanlan.zhihu.com/p/113536045)
 
 <a name="7.图像增强"></a>
 ## 7.图像增强（Image Enhancement）
 ### Auto-Exposure Fusion for Single-Image Shadow Removal
 - Paper：[https://arxiv.org/abs/2103.01255](https://arxiv.org/abs/2103.01255)
 - Code：[https://github.com/tsingqguo/exposure-fusion-shadow-removal](https://github.com/tsingqguo/exposure-fusion-shadow-removal)
+
 ### Learning Multi-Scale Photo Exposure Correction
 - Paper：[https://arxiv.org/abs/2003.11596](https://arxiv.org/abs/2003.11596)
 - Code：[https://github.com/mahmoudnafifi/Exposure_Correction](https://github.com/mahmoudnafifi/Exposure_Correction)
+
 ### DeFMO: Deblurring and Shape Recovery of Fast Moving Objects
 - Paper：[hhttps://arxiv.org/abs/2012.00595](https://arxiv.org/abs/2012.00595)
 - Code：[https://github.com/rozumden/DeFMO](https://github.com/rozumden/DeFMO)
+
 <a name="8.图像去摩尔纹"></a>
 ## 8.图像去摩尔纹（Image Demoireing）
 
@@ -179,18 +182,18 @@
 ## 9.图像阴影去除(Image Shadow Removal)
 ### Auto-Exposure Fusion for Single-Image Shadow Removal(用于单幅图像阴影去除的自动曝光融合)
  - [论文地址](https://arxiv.org/abs/2103.01255)
- - [代码地址](https://github.com/tsingqguo/exposure-fusion-shadow-removal)<br><br>
+ - [代码地址](https://github.com/tsingqguo/exposure-fusion-shadow-removal)
 
 <a name="10.图像翻译"></a>
 ## 10.图像翻译（Image Translation）
 ### Image-to-image Translation via Hierarchical Style Disentanglement
  - [paper](https://arxiv.org/abs/2103.01456)
- - [code](https://github.com/imlixinyang/HiSD)<br><br>
+ - [code](https://github.com/imlixinyang/HiSD)
 
-### Encoding in Style: a StyleGAN Encoder for Image-to-Image Translation(样式编码：用于图像到图像翻译的StyleGAN编码器)<br>
+### Encoding in Style: a StyleGAN Encoder for Image-to-Image Translation(样式编码：用于图像到图像翻译的StyleGAN编码器)
 - [paper](https://arxiv.org/abs/2008.00951)
 - [code](https://github.com/eladrich/pixel2style2pixel)
-- [project](https://eladrich.github.io/pixel2style2pixel/)<br><br>
+- [project](https://eladrich.github.io/pixel2style2pixel/)
 
 <a name="11.插帧"></a>
 ## 11.插帧（Frame Interpolation）
@@ -198,8 +201,10 @@
 - Paper：[https://arxiv.org/abs/2012.08512](https://arxiv.org/abs/2012.08512)
 - Code：[https://tarun005.github.io/FLAVR/Code](https://tarun005.github.io/FLAVR/Code)
 - Homepage：[https://tarun005.github.io/FLAVR/](https://tarun005.github.io/FLAVR/)
+
 ### CDFI: Compression-driven Network Design for Frame Interpolation
 - Code:[https://github.com/tding1/Compression-Driven-Frame-Interpolation](https://github.com/tding1/Compression-Driven-Frame-Interpolation)
+
 ### DeFMO: Deblurring and Shape Recovery of Fast Moving Objects
 - Paper：[hhttps://arxiv.org/abs/2012.00595](https://arxiv.org/abs/2012.00595)
 - Code：[https://github.com/rozumden/DeFMO](https://github.com/rozumden/DeFMO)
@@ -212,11 +217,11 @@
 
 <a name="13.图像编辑"></a>
 ## 13.图像编辑(Image Edit)
-### Anycost GANs for Interactive Image Synthesis and Editing(用于交互式图像合成和编辑的AnyCost Gans)<br>
+### Anycost GANs for Interactive Image Synthesis and Editing(用于交互式图像合成和编辑的AnyCost Gans)
 - [paper](https://arxiv.org/abs/2103.03243)
-- [code](https://github.com/mit-han-lab/anycost-gan)<br>
+- [code](https://github.com/mit-han-lab/anycost-gan)
 
-### Exploiting Spatial Dimensions of Latent in GAN for Real-time Image Editing（利用GAN中潜在的空间维度进行实时图像编辑）<br>
+### Exploiting Spatial Dimensions of Latent in GAN for Real-time Image Editing（利用GAN中潜在的空间维度进行实时图像编辑）
 
 <a name="detection"/> 
 
@@ -238,11 +243,12 @@
 [5] [Instance Localization for Self-supervised Detection Pretraining(自监督检测预训练的实例定位)](https://arxiv.org/pdf/2102.08318.pdf)
   - [code](https://github.com/limbo0000/InstanceLoc)
 
-[6] Multiple Instance Active Learning for Object Detection（用于对象检测的多实例主动学习）<br>
-[paper](https://github.com/yuantn/MIAL/raw/master/paper.pdf)|[code](https://github.com/yuantn/MIAL)
+[6] Multiple Instance Active Learning for Object Detection（用于对象检测的多实例主动学习)
+- 论文地址: [https://github.com/yuantn/MIAL/raw/master/paper.pdf](https://github.com/yuantn/MIAL/raw/master/paper.pdf)
+- 代码地址：[https://github.com/yuantn/MIAL](https://github.com/yuantn/MIAL)
 
-[7] Towards Open World Object Detection(开放世界中的目标检测)<br>
-[paper](Towards Open World Object Detection)|[code](https://github.com/JosephKJ/OWOD)<br><br>
+[7] Towards Open World Object Detection(开放世界中的目标检测)
+- [code](https://github.com/JosephKJ/OWOD)
 
 <a name="VOD"/> 
 
@@ -556,9 +562,9 @@
 
 <a name="Transformer"/> 
 
-### Transformer
+## Transformer
 
-[3] Transformer Interpretability Beyond Attention Visualization(注意力可视化之外的Transformer可解释性)<br>
+#### Transformer Interpretability Beyond Attention Visualization(注意力可视化之外的Transformer可解释性)<br>
 [paper](https://arxiv.org/pdf/2012.09838.pdf)|[code](https://github.com/hila-chefer/Transformer-Explainability)<br><br>
 
 [2] UP-DETR: Unsupervised Pre-training for Object Detection with Transformers<br>
