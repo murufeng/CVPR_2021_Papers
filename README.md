@@ -233,7 +233,7 @@
 
 [1] [Semantic Relation Reasoning for Shot-Stable Few-Shot Object Detection(小样本目标检测的语义关系推理)](https://arxiv.org/abs/2103.01903)
 
-[2] [UP-DETR: Unsupervised Pre-training for Object Detection with Transformers](https://arxiv.org/pdf/2011.09094.pdf)<br>
+[2] [UP-DETR: Unsupervised Pre-training for Object Detection with Transformers](https://arxiv.org/pdf/2011.09094.pdf)
   - 解读：[无监督预训练检测器](https://www.zhihu.com/question/432321109/answer/1606004872)
   
 [3] Positive-Unlabeled Data Purification in the Wild for Object Detection(野外检测对象的阳性无标签数据提纯)
@@ -386,13 +386,15 @@
 - [paper](https://arxiv.org/abs/2103.00948)
 
 [2] When Age-Invariant Face Recognition Meets Face Age Synthesis: A  Multi-Task Learning Framework(当年龄不变的人脸识别遇到人脸年龄合成时：一个多任务学习框架)
-- [paper](https://arxiv.org/abs/2103.01520)|[code](https://github.com/Hzzone/MTLFace)
+- [paper](https://arxiv.org/abs/2103.01520)
+- [code](https://github.com/Hzzone/MTLFace)
 
 [3] Multi-attentional Deepfake Detection(多注意的深伪检测)
 - [paper](https://arxiv.org/abs/2103.02406)
 
 [4] Image-to-image Translation via Hierarchical Style Disentanglement
-- [paper](https://arxiv.org/abs/2103.01456)|[code](https://github.com/imlixinyang/HiSD)
+- [paper](https://arxiv.org/abs/2103.01456)
+- [code](https://github.com/imlixinyang/HiSD)
 
 [5] A 3D GAN for Improved Large-pose Facial Recognition(用于改善大姿势面部识别的3D GAN)
 - [paper](https://arxiv.org/pdf/2012.10545.pdf)
@@ -422,8 +424,6 @@
 
 [1] Meta Batch-Instance Normalization for Generalizable Person Re-Identification(通用批处理人员重新标识的元批实例规范化)
 - [paper](https://arxiv.org/abs/2011.14670)
-- 
-<br>
 
 <a name="MedicalImaging"/> 
 
@@ -545,11 +545,12 @@
 <a name="ModelCompression"/> 
 
 ## 模型压缩(Model Compression)
-[2] Manifold Regularized Dynamic Network Pruning（动态剪枝的过程中考虑样本复杂度与网络复杂度的约束）
+[1] Manifold Regularized Dynamic Network Pruning（动态剪枝的过程中考虑样本复杂度与网络复杂度的约束）
 
-[1] Learning Student Networks in the Wild（一种不需要原始训练数据的模型压缩和加速技术）
-[paper](https://arxiv.org/pdf/1904.01186.pdf)|[code](https://github.com/huawei-noah/DAFL)
-解读：[华为诺亚方舟实验室提出无需数据网络压缩技术](https://zhuanlan.zhihu.com/p/81277796)
+[2] Learning Student Networks in the Wild（一种不需要原始训练数据的模型压缩和加速技术）
+- [paper](https://arxiv.org/pdf/1904.01186.pdf)
+- [code](https://github.com/huawei-noah/DAFL)
+- 解读：[华为诺亚方舟实验室提出无需数据网络压缩技术](https://zhuanlan.zhihu.com/p/81277796)
 
 <a name="KnowledgeDistillation"/> 
 
@@ -589,10 +590,11 @@
 - 解读：[RepVGG：极简架构，SOTA性能，让VGG式模型再次伟大](https://zhuanlan.zhihu.com/p/344324470)
 
 <br>
-<a name="att"/> 
-## Transformer
 
-#### Transformer Interpretability Beyond Attention Visualization(注意力可视化之外的Transformer可解释性)
+<a name="att"/> 
+
+## Transformer
+[1] Transformer Interpretability Beyond Attention Visualization(注意力可视化之外的Transformer可解释性)
 - [paper](https://arxiv.org/pdf/2012.09838.pdf)
 - [code](https://github.com/hila-chefer/Transformer-Explainability)
 
@@ -600,7 +602,7 @@
 - [paper](https://arxiv.org/pdf/2011.09094.pdf)
 - 解读：[无监督预训练检测器](https://www.zhihu.com/question/432321109/answer/1606004872)
 
-[1] Pre-Trained Image Processing Transformer(底层视觉预训练模型)
+[3] Pre-Trained Image Processing Transformer(底层视觉预训练模型)
 - [paper](https://arxiv.org/pdf/2012.00364.pdf)
 
 <a name="GNN"/> 
@@ -702,8 +704,8 @@
 [2] Few-shot Open-set Recognition by Transformation Consistency(转换一致性很少的开放集识别)
 
 [1] Exploring Complementary Strengths of Invariant and Equivariant Representations for Few-Shot Learning(探索少量学习的不变表示形式和等变表示形式的互补强度)
-- [paper](https://arxiv.org/abs/2103.01315)|
-<br>
+- [paper](https://arxiv.org/abs/2103.01315)
+
 
 <a name="ContinualLearning"/> 
 
@@ -819,7 +821,7 @@ Domain Generalization via Inference-time Label-Preserving Target Projections（�
 - [paper](https://arxiv.org/pdf/2103.01134.pdf)
 
 DeRF: Decomposed Radiance Fields（分解的辐射场）
-[project](https://ubc-vision.github.io/derf/)
+- [project](https://ubc-vision.github.io/derf/)
 
 Densely connected multidilated convolutional networks for dense prediction tasks（【密集预测】密集连接的多重卷积网络，用于密集的预测任务）
 - [paper](https://arxiv.org/abs/2011.11844)
@@ -958,14 +960,14 @@ Weakly Supervised Learning of Rigid 3D Scene Flow(刚性3D场景流的弱监督�
 <br>
 
 <a name="300"/> 
-### CVPR2021的论文解读
+
+## CVPR2021的论文解读
 
 * [CVPR 2021 | GFLV2：目标检测良心技术，无Cost涨点!](https://zhuanlan.zhihu.com/p/313684358)
 * [CVPR 2021 | 上交和国科大提出DCL：旋转目标检测新方法](https://zhuanlan.zhihu.com/p/354373013)
 * [CVPR 2021 | 涨点神器！IC-Conv：使用高效空洞搜索的Inception卷积，全方位提升！]()
 * [CVPR 2021 Oral | 层次风格解耦：人脸多属性篡改终于可控了！](https://zhuanlan.zhihu.com/p/354258056)
 * [CVPR 2021 | Transformer进军low-level视觉！北大华为等提出预训练模型IPT]()
-* 
 
 <br>
 
