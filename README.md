@@ -108,7 +108,6 @@
 ## 1.超分辨率（Super-Resolution）
 
 ### Unsupervised Degradation Representation Learning for Blind Super-Resolution
-- Paper：
 - Code：[https://github.com/LongguangWang/DASR](https://github.com/LongguangWang/DASR)
 
 ### Data-Free Knowledge Distillation For Image Super-Resolution
@@ -187,8 +186,8 @@
 <a name="10.图像翻译"></a>
 ## 10.图像翻译（Image Translation）
 ### Image-to-image Translation via Hierarchical Style Disentanglement
- - [paper](https://arxiv.org/abs/2103.01456)
- - [code](https://github.com/imlixinyang/HiSD)
+ - 论文地址：[https://arxiv.org/abs/2103.01456](https://arxiv.org/abs/2103.01456)
+ - [代码地址](https://github.com/imlixinyang/HiSD)
 
 ### Encoding in Style: a StyleGAN Encoder for Image-to-Image Translation(样式编码：用于图像到图像翻译的StyleGAN编码器)
 - [paper](https://arxiv.org/abs/2008.00951)
@@ -220,12 +219,12 @@
 ### Anycost GANs for Interactive Image Synthesis and Editing(用于交互式图像合成和编辑的AnyCost Gans)
 - [paper](https://arxiv.org/abs/2103.03243)
 - [code](https://github.com/mit-han-lab/anycost-gan)
-
 ### Exploiting Spatial Dimensions of Latent in GAN for Real-time Image Editing（利用GAN中潜在的空间维度进行实时图像编辑）
 
+<br>
 <a name="detection"/> 
 
-## 检测
+# 检测
 
 <a name="IOD"/> 
 
@@ -254,36 +253,42 @@
 
 ### 视频目标检测(Video Object Detection)
 
-[3] Depth from Camera Motion and Object Detection(相机运动和物体检测的深度)<br>
-- [paper](https://arxiv.org/abs/2103.01468)<br><br>
+[1] Depth from Camera Motion and Object Detection(相机运动和物体检测的深度)
+- [论文地址](https://arxiv.org/abs/2103.01468)
 
-[2] There is More than Meets the Eye: Self-Supervised Multi-Object Detection  and Tracking with Sound by Distilling Multimodal Knowledge(多模态知识提取的自监督多目标检测与有声跟踪)<br>
-[paper](https://arxiv.org/abs/2103.01353)|[video](https://www.youtube.com/channel/UCRpM8k1GY3kD2TqCo_yKN3g)|[project](http://rl.uni-freiburg.de/research/multimodal-distill)<br>
+[2] There is More than Meets the Eye: Self-Supervised Multi-Object Detection  and Tracking with Sound by Distilling Multimodal Knowledge(多模态知识提取的自监督多目标检测与有声跟踪)
+- 论文地址:[https://arxiv.org/abs/2103.01353](https://arxiv.org/abs/2103.01353)
+- [视频链接](https://www.youtube.com/channel/UCRpM8k1GY3kD2TqCo_yKN3g)
+- [project](http://rl.uni-freiburg.de/research/multimodal-distill)
 
-[1] Dogfight: Detecting Drones from Drone Videos（从无人机视频中检测无人机）<br><br>
+[3] Dogfight: Detecting Drones from Drone Videos（从无人机视频中检测无人机）
+
 <a name="3DOD"/> 
 
 ### 三维目标检测(3D object detection)
 
-[2] 3DIoUMatch: Leveraging IoU Prediction for Semi-Supervised 3D Object Detection(利用IoU预测进行半监督3D对象检测)<br>
-[paper](https://arxiv.org/pdf/2012.04355.pdf)|[code](https://github.com/THU17cyz/3DIoUMatch)|[project](https://thu17cyz.github.io/3DIoUMatch/)|[video](https://youtu.be/nuARjhkQN2U)<br><br>
+[1] 3DIoUMatch: Leveraging IoU Prediction for Semi-Supervised 3D Object Detection(利用IoU预测进行半监督3D对象检测)
+- [论文地址](https://arxiv.org/pdf/2012.04355.pdf)
+- [代码地址](https://github.com/THU17cyz/3DIoUMatch)
+- [项目地址](https://thu17cyz.github.io/3DIoUMatch/)
+- [视频链接](https://youtu.be/nuARjhkQN2U)
 
-[1] Categorical Depth Distribution Network for Monocular 3D Object Detection(用于单目三维目标检测的分类深度分布网络)<br>
-[paper](https://arxiv.org/abs/2103.01100)<br><br>
+[2] Categorical Depth Distribution Network for Monocular 3D Object Detection(用于单目三维目标检测的分类深度分布网络)
+- [paper](https://arxiv.org/abs/2103.01100)
 
 <a name="Activity Detection"/> 
 
 ### 动作检测(Activity Detection)
 
-[1] Coarse-Fine Networks for Temporal Activity Detection in Videos<br>
-[paper](https://arxiv.org/abs/2103.01302)<br><br>
+[1] Coarse-Fine Networks for Temporal Activity Detection in Videos
+- [paper](https://arxiv.org/abs/2103.01302)
 
 <a name="AnomallyDetetionn"/> 
 
 ### 异常检测(Anomally Detetion)
 
-[1] Multiresolution Knowledge Distillation for Anomaly Detection(用于异常检测的多分辨率知识蒸馏)<br>
-[paper](https://arxiv.org/abs/2011.11108)<br><br>
+[1] Multiresolution Knowledge Distillation for Anomaly Detection(用于异常检测的多分辨率知识蒸馏)
+- [paper](https://arxiv.org/abs/2011.11108)
 
 <br>
 
@@ -291,46 +296,50 @@
 
 ## 图像分割(Image Segmentation)
 
-[2] Few-Shot Segmentation Without Meta-Learning: A Good Transductive Inference Is All You Need?<br>
-[paper](https://arxiv.org/abs/2012.06166)|[code](https://github.com/mboudiaf/RePRI-for-Few-Shot-Segmentation)<br><br>
+[1] Few-Shot Segmentation Without Meta-Learning: A Good Transductive Inference Is All You Need?
+ - [paper](https://arxiv.org/abs/2012.06166)
+ - [code](https://github.com/mboudiaf/RePRI-for-Few-Shot-Segmentation)
 
-[1] PointFlow: Flowing Semantics Through Points for Aerial Image Segmentation(语义流经点以进行航空图像分割)<br><br>
+[2] PointFlow: Flowing Semantics Through Points for Aerial Image Segmentation(语义流经点以进行航空图像分割)
 
 <a name="PanopticSegmentation"/> 
 
 ### 全景分割(Panoptic Segmentation)
 
-[2] Cross-View Regularization for Domain Adaptive Panoptic Segmentation(用于域自适应全景分割的跨视图正则化)<br>
-[paper](https://arxiv.org/abs/2103.02584)<br><br>
+[1] Cross-View Regularization for Domain Adaptive Panoptic Segmentation(用于域自适应全景分割的跨视图正则化)
+- [paper](https://arxiv.org/abs/2103.02584)
 
-[1] 4D Panoptic LiDAR Segmentation（4D全景LiDAR分割）<br>
-[paper](https://arxiv.org/abs/2102.12472)<br><br>
+[2] 4D Panoptic LiDAR Segmentation（4D全景LiDAR分割）
+- [paper](https://arxiv.org/abs/2102.12472)
 
 <a name="SemanticSegmentation"/> 
 
 ### 语义分割(Semantic Segmentation)
 
+[1] Towards Semantic Segmentation of Urban-Scale 3D Point Clouds: A Dataset, Benchmarks and Challenges(走向城市规模3D点云的语义分割：数据集，基准和挑战)
+- [paper](https://arxiv.org/abs/2009.03137)
+- [code](https://github.com/QingyongHu/SensatUrban)
 
-[2] Towards Semantic Segmentation of Urban-Scale 3D Point Clouds: A Dataset, Benchmarks and Challenges(走向城市规模3D点云的语义分割：数据集，基准和挑战)<br>
-[paper](https://arxiv.org/abs/2009.03137)|[code](https://github.com/QingyongHu/SensatUrban)<br><br>
-
-[1] PLOP: Learning without Forgetting for Continual Semantic Segmentation（PLOP：学习而不会忘记连续的语义分割）<br>
-[paper](https://arxiv.org/abs/2011.11390)<br><br>
+[2] PLOP: Learning without Forgetting for Continual Semantic Segmentation（PLOP：学习而不会忘记连续的语义分割）
+[paper](https://arxiv.org/abs/2011.11390)
 
 <a name="InstanceSegmentation"/> 
-
 ### 实例分割(Instance Segmentation)
 
-[1] End-to-End Video Instance Segmentation with Transformers(使用Transformer的端到端视频实例分割) <br>
-[paper](https://arxiv.org/abs/2011.14503)
+[1] End-to-End Video Instance Segmentation with Transformers(使用Transformer的端到端视频实例分割) 
+- [paper](https://arxiv.org/abs/2011.14503)
+
 <br><br>
 
 <a name="Matting"/> 
 
 ## 抠图(Matting)
 
-[1] Real-Time High Resolution Background Matting<br>
-[paper](https://arxiv.org/abs/2012.07810)|[code](https://github.com/PeterL1n/BackgroundMattingV2)|[project](https://grail.cs.washington.edu/projects/background-matting-v2/)|[video](https://youtu.be/oMfPTeYDF9g)<br><br>
+[1] Real-Time High Resolution Background Matting
+- [paper](https://arxiv.org/abs/2012.07810)
+- [code](https://github.com/PeterL1n/BackgroundMattingV2)
+- [project](https://grail.cs.washington.edu/projects/background-matting-v2/)
+- [video](https://youtu.be/oMfPTeYDF9g)
 
 <a name="Estimation"/> 
 
@@ -339,51 +348,53 @@
 <a name="HumanPoseEstimation"/> 
 
 ### 人体姿态估计(Human Pose Estimation)
+[1] CanonPose: Self-supervised Monocular 3D Human Pose Estimation in the Wild（野外自监督的单眼3D人类姿态估计）
 
-
-[2] CanonPose: Self-supervised Monocular 3D Human Pose Estimation in the Wild（野外自监督的单眼3D人类姿态估计）<br><br>
-
-[1] PCLs: Geometry-aware Neural Reconstruction of 3D Pose with Perspective Crop Layers（具有透视作物层的3D姿势的几何感知神经重建）<br>
-[paper](https://arxiv.org/abs/2011.13607)<br><br>
+[2] PCLs: Geometry-aware Neural Reconstruction of 3D Pose with Perspective Crop Layers（具有透视作物层的3D姿势的几何感知神经重建）
+- [paper](https://arxiv.org/abs/2011.13607)
 
 <a name="Flow/Pose/MotionEstimation"/> 
 
 ### 手势估计(Gesture Estimation)
 
-[1] Camera-Space Hand Mesh Recovery via Semantic Aggregation and Adaptive  2D-1D Registration(基于语义聚合和自适应2D-1D配准的相机空间手部网格恢复)<br>
-[paper](https://arxiv.org/pdf/2103.02845.pdf)|[code](https://github.com/SeanChenxy/HandMesh)<br><br>
+[1] Camera-Space Hand Mesh Recovery via Semantic Aggregation and Adaptive  2D-1D Registration(基于语义聚合和自适应2D-1D配准的相机空间手部网格恢复)
+- [paper](https://arxiv.org/pdf/2103.02845.pdf)
+- [code](https://github.com/SeanChenxy/HandMesh)
 
 <a name="Flow/Pose/MotionEstimation"/> 
 
 ### 光流/位姿/运动估计(Flow/Pose/Motion Estimation)
 
-[3] GDR-Net: Geometry-Guided Direct Regression Network for Monocular 6D Object Pose Estimation(用于单眼6D对象姿态估计的几何引导直接回归网络)<br>
-[paper](http://arxiv.org/abs/2102.12145)|[code](https://github.com/THU-DA-6D-Pose-Group/GDR-Net)<br><br>
+[1] GDR-Net: Geometry-Guided Direct Regression Network for Monocular 6D Object Pose Estimation(用于单眼6D对象姿态估计的几何引导直接回归网络)
+- [paper](http://arxiv.org/abs/2102.12145)
+- [code](https://github.com/THU-DA-6D-Pose-Group/GDR-Net)
 
-[2] Robust Neural Routing Through Space Partitions for Camera Relocalization in Dynamic Indoor Environments(在动态室内环境中，通过空间划分的鲁棒神经路由可实现摄像机的重新定位)<br>
-[paper](https://arxiv.org/abs/2012.04746)|[project](https://ai.stanford.edu/~hewang/)<br><br>
+[2] Robust Neural Routing Through Space Partitions for Camera Relocalization in Dynamic Indoor Environments(在动态室内环境中，通过空间划分的鲁棒神经路由可实现摄像机的重新定位)
+- [paper](https://arxiv.org/abs/2012.04746)
+- [project](https://ai.stanford.edu/~hewang/)
 
-[1] MultiBodySync: Multi-Body Segmentation and Motion Estimation via 3D Scan Synchronization(通过3D扫描同步进行多主体分割和运动估计)<br>
-[paper](https://arxiv.org/pdf/2101.06605.pdf)|[code](https://github.com/huangjh-pub/multibody-sync)<br><br>
+[3] MultiBodySync: Multi-Body Segmentation and Motion Estimation via 3D Scan Synchronization(通过3D扫描同步进行多主体分割和运动估计)
+- [paper](https://arxiv.org/pdf/2101.06605.pdf)
+- [code](https://github.com/huangjh-pub/multibody-sync)
 
 <a name="Face"/> 
 
 ## 人脸(Face)
 
-[5] Cross Modal Focal Loss for RGBD Face Anti-Spoofing(Cross Modal Focal Loss for RGBD Face Anti-Spoofing)
-[paper](https://arxiv.org/abs/2103.00948)<br><br>
+[1] Cross Modal Focal Loss for RGBD Face Anti-Spoofing(Cross Modal Focal Loss for RGBD Face Anti-Spoofing)
+- [paper](https://arxiv.org/abs/2103.00948)
 
-[4] When Age-Invariant Face Recognition Meets Face Age Synthesis: A  Multi-Task Learning Framework(当年龄不变的人脸识别遇到人脸年龄合成时：一个多任务学习框架)<br>
-[paper](https://arxiv.org/abs/2103.01520)|[code](https://github.com/Hzzone/MTLFace)<br><br>
+[2] When Age-Invariant Face Recognition Meets Face Age Synthesis: A  Multi-Task Learning Framework(当年龄不变的人脸识别遇到人脸年龄合成时：一个多任务学习框架)
+- [paper](https://arxiv.org/abs/2103.01520)|[code](https://github.com/Hzzone/MTLFace)
 
-[3] Multi-attentional Deepfake Detection(多注意的深伪检测)<br>
-[paper](https://arxiv.org/abs/2103.02406)<br><br>
+[3] Multi-attentional Deepfake Detection(多注意的深伪检测)
+- [paper](https://arxiv.org/abs/2103.02406)
 
-[2] Image-to-image Translation via Hierarchical Style Disentanglement<br>
-[paper](https://arxiv.org/abs/2103.01456)|[code](https://github.com/imlixinyang/HiSD)<br><br>
+[4] Image-to-image Translation via Hierarchical Style Disentanglement
+- [paper](https://arxiv.org/abs/2103.01456)|[code](https://github.com/imlixinyang/HiSD)
 
-[1] A 3D GAN for Improved Large-pose Facial Recognition(用于改善大姿势面部识别的3D GAN)<br>
-[paper](https://arxiv.org/pdf/2012.10545.pdf)<br><br>
+[5] A 3D GAN for Improved Large-pose Facial Recognition(用于改善大姿势面部识别的3D GAN)
+- [paper](https://arxiv.org/pdf/2012.10545.pdf)
 
 <br>
 
