@@ -1,5 +1,5 @@
 ## CVPR2021_Papers汇总，主要包括论文链接、代码地址、文章解读等等
-### 关注公众号【深度学习技术前沿】后台回复 **CVPR2021** 获得百度云下载链接
+## 关注公众号【深度学习技术前沿】后台回复 **CVPR2021** 获得百度云下载链接
 
 ------
 
@@ -9,7 +9,7 @@
 - CVPR2021官方接受论文列表：[http://cvpr2021.thecvf.com/sites/default/files/2021-03/accepted_paper_ids.txt](http://cvpr2021.thecvf.com/sites/default/files/2021-03/accepted_paper_ids.txt)
 ------
 
-## 1.CVPR2021接受论文/代码分方向整理(持续更新)
+# CVPR2021接受论文/代码分方向整理(持续更新)
 
 # 分类目录：
 ## Low-Level-Vision(主要包括：超分辨率，图像恢复，去雨，去雾，去模糊，去噪，重建等方向)
@@ -25,7 +25,7 @@
 - [10.图像翻译（Image Translation）](#10.图像翻译)
 - [11.插帧（Frame Interpolation）](#11.插帧)
 - [12.视频压缩（Video Compression）](#12.视频压缩)
-- 
+- [13.图像编辑(Image Edit)](#13.图像编辑)
 
 ## High-Level-Vision（主要包括：图像分类，检测，分割，跟踪，GAN等方向）
 ### [检测](#detection)
@@ -182,7 +182,6 @@
  - [代码地址](https://github.com/tsingqguo/exposure-fusion-shadow-removal)<br><br>
 
 <a name="10.图像翻译"></a>
-
 ## 10.图像翻译（Image Translation）
 ### Image-to-image Translation via Hierarchical Style Disentanglement
  - [paper](https://arxiv.org/abs/2103.01456)
@@ -219,7 +218,6 @@
 
 ### Exploiting Spatial Dimensions of Latent in GAN for Real-time Image Editing（利用GAN中潜在的空间维度进行实时图像编辑）<br>
 
-
 <a name="detection"/> 
 
 ## 检测
@@ -251,10 +249,10 @@
 ### 视频目标检测(Video Object Detection)
 
 [3] Depth from Camera Motion and Object Detection(相机运动和物体检测的深度)<br>
-[paper](https://arxiv.org/abs/2103.01468)<br><br>
+- [paper](https://arxiv.org/abs/2103.01468)<br><br>
 
 [2] There is More than Meets the Eye: Self-Supervised Multi-Object Detection  and Tracking with Sound by Distilling Multimodal Knowledge(多模态知识提取的自监督多目标检测与有声跟踪)<br>
-[paper](https://arxiv.org/abs/2103.01353)|[video](https://www.youtube.com/channel/UCRpM8k1GY3kD2TqCo_yKN3g)|[project](http://rl.uni-freiburg.de/research/multimodal-distill)<br><br>
+[paper](https://arxiv.org/abs/2103.01353)|[video](https://www.youtube.com/channel/UCRpM8k1GY3kD2TqCo_yKN3g)|[project](http://rl.uni-freiburg.de/research/multimodal-distill)<br>
 
 [1] Dogfight: Detecting Drones from Drone Videos（从无人机视频中检测无人机）<br><br>
 <a name="3DOD"/> 
