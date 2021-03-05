@@ -61,9 +61,9 @@
 * [三维重建(3D Reconstruction)](#3DReconstruction)<br>
 
 ## 模型架构与数据处理（主要包括：Transformer，Backbone，NAS，模型压缩，模型评估）
-### [BackBone](#Backbone)
+### [BackBone](#backbone)
 
-### [Transformer](#Transformer)
+### [Transformer](#att)
 
 ### [神经网络架构(Neural Network Structure)](#NNS)
 * [图神经网络(GNN)](#GNN)<br>
@@ -557,52 +557,44 @@
 
 <br>
 
-<a name="BackBone"/> 
-
-## BackBone
-### Coordinate Attention for Efficient Mobile Network Design
-- Paper: https://arxiv.org/abs/2103.02907
-- Code: https://github.com/Andrew-Qibin/CoordAttention
-
-### Inception Convolution with Efficient Dilation Search
-- Paper: https://arxiv.org/abs/2012.13587
-- Code: None
-
-### RepVGG: Making VGG-style ConvNets Great Again
-- Paper: https://arxiv.org/abs/2101.03697
-- Code: https://github.com/DingXiaoH/RepVGG
-
-<br>
-
 <a name="NNS"/> 
 
 ## 神经网络架构(Neural Network Structure)
 
-[4] Coordinate Attention for Efficient Mobile Network Design(协调注意力以实现高效的移动网络设计)<br>
-[paper](https://arxiv.org/abs/2103.02907)<br><br>
+[1] Coordinate Attention for Efficient Mobile Network Design(协调注意力以实现高效的移动网络设计)
+- [paper](https://arxiv.org/abs/2103.02907)
+- Code: [https://github.com/Andrew-Qibin/CoordAttention](https://github.com/Andrew-Qibin/CoordAttention)
 
-[3] Rethinking Channel Dimensions for Efficient Model Design(重新考虑通道尺寸以进行有效的模型设计)<br>
-[paper](https://arxiv.org/abs/2007.00992)|[code](https://github.com/clovaai/rexnet)<br><br>
+[2] Inception Convolution with Efficient Dilation Search
+- Paper: https://arxiv.org/abs/2012.13587
+- Code: None
 
-[2] Inverting the Inherence of Convolution for Visual Recognition（颠倒卷积的固有性以进行视觉识别）<br><br>
+[3] Rethinking Channel Dimensions for Efficient Model Design(重新考虑通道尺寸以进行有效的模型设计)
+- [paper](https://arxiv.org/abs/2007.00992)
+- [code](https://github.com/clovaai/rexnet)
 
-[1] RepVGG: Making VGG-style ConvNets Great Again<br>
-[paper](https://arxiv.org/abs/2101.03697)|[code](https://github.com/megvii-model/RepVGG)<br>
-解读：[RepVGG：极简架构，SOTA性能，让VGG式模型再次伟大](https://zhuanlan.zhihu.com/p/344324470)<br><br>
+[4] Inverting the Inherence of Convolution for Visual Recognition（颠倒卷积的固有性以进行视觉识别）
 
-<a name="Transformer"/> 
+[5] RepVGG: Making VGG-style ConvNets Great Again
+- [paper](https://arxiv.org/abs/2101.03697)
+- [code](https://github.com/megvii-model/RepVGG)
+- 解读：[RepVGG：极简架构，SOTA性能，让VGG式模型再次伟大](https://zhuanlan.zhihu.com/p/344324470)
 
+<br>
+
+<a name="att"/> 
 ## Transformer
 
-#### Transformer Interpretability Beyond Attention Visualization(注意力可视化之外的Transformer可解释性)<br>
-[paper](https://arxiv.org/pdf/2012.09838.pdf)|[code](https://github.com/hila-chefer/Transformer-Explainability)<br><br>
+#### Transformer Interpretability Beyond Attention Visualization(注意力可视化之外的Transformer可解释性)
+- [paper](https://arxiv.org/pdf/2012.09838.pdf)
+- [code](https://github.com/hila-chefer/Transformer-Explainability)
 
-[2] UP-DETR: Unsupervised Pre-training for Object Detection with Transformers<br>
-[paper](https://arxiv.org/pdf/2011.09094.pdf)<br>
-解读：[无监督预训练检测器](https://www.zhihu.com/question/432321109/answer/1606004872)<br><br>
+[2] UP-DETR: Unsupervised Pre-training for Object Detection with Transformers
+- [paper](https://arxiv.org/pdf/2011.09094.pdf)<br>
+- 解读：[无监督预训练检测器](https://www.zhihu.com/question/432321109/answer/1606004872)
 
-[1] Pre-Trained Image Processing Transformer(底层视觉预训练模型)<br>
-[paper](https://arxiv.org/pdf/2012.00364.pdf)<br><br>
+[1] Pre-Trained Image Processing Transformer(底层视觉预训练模型)
+- [paper](https://arxiv.org/pdf/2012.00364.pdf)
 
 <a name="GNN"/> 
 
