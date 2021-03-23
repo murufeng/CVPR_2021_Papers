@@ -39,13 +39,18 @@
 * [全景分割(Panoptic Segmentation)](#PanopticSegmentation)<br>
 * [语义分割(Semantic Segmentation)](#SemanticSegmentation)<br>
 * [实例分割(Instance Segmentation)](#InstanceSegmentation)<br>
+* [超像素(Superpixel)](#Superpixel)<br>
+* [视频目标分割(Video Object Segmentation)](#VOS)<br>
 * [抠图(Matting)](#Matting)<br>
 
 ### [人脸(Face)](#Face)
+* [人脸生成/合成/伪造(Face Generation/Face Synthesis/Face Forgery)](#FaceSynthesis)
+* [人脸反欺骗(Face Anti-Spoofing)](#FaceAnti-Spoofing)
 
 ### [目标跟踪(Object Tracking)](#ObjectTracking)
 
 ### [重识别(Re-Identification)](#Re-Identification)
+* [行为识别/行为识别/动作识别/检测/分割(Action/Activity Recognition)](#ActionRecognition)
 
 ### [医学影像(Medical Imaging)](#MedicalImaging)
 
@@ -113,8 +118,16 @@
 
 ### Data-Free Knowledge Distillation For Image Super-Resolution
 
+### Learning Continuous Image Representation with Local Implicit Image Function(通过局部隐含图像功能学习连续图像表示)
+- [paepr](https://arxiv.org/abs/2012.09161) 
+- [code](https://github.com/yinboc/liif) 
+- [video](https://youtu.be/6f2roieSY_8) 
+- [project](https://yinboc.github.io/liif/)
+
 ### AdderSR: Towards Energy Efficient Image Super-Resolution
 - Paper：[https://arxiv.org/abs/2009.08891](https://arxiv.org/abs/2009.08891)
+- [code](https://github.com/huawei-noah/AdderNet)
+- 解读：[华为开源加法神经网络](https://zhuanlan.zhihu.com/p/113536045)
 
 ### Exploring Sparsity in Image Super-Resolution for Efficient Inference
 - Paper：[https://arxiv.org/abs/2006.09603](https://arxiv.org/abs/2006.09603)
@@ -130,6 +143,8 @@
 
 <a name="2.图像去雨"></a>
 ## 2.图像去雨（Image Deraining）
+### Semi-Supervised Video Deraining with Dynamic Rain Generator(带动态雨水产生器的半监督视频去雨)
+- [paper](https://arxiv.org/abs/2103.07939)
 
 <a name="3.图像去雾"></a>
 ## 3.图像去雾（Image Dehazing）
@@ -140,6 +155,9 @@
 - [paper](https://arxiv.org/abs/2012.00595)
 - [code](https://github.com/rozumden/DeFMO)
 - [video](https://www.youtube.com/watch?v=pmAynZvaaQ4)
+
+### ARVo: Learning All-Range Volumetric Correspondence for Video Deblurring(学习用于视频去模糊的全范围体积对应)
+- [paper](https://arxiv.org/pdf/2103.04260.pdf)
 
 <a name="5.去噪"></a>
 ## 5.去噪（Denoising）
@@ -154,12 +172,23 @@
 - Paper：[https://arxiv.org/abs/2012.09491](https://arxiv.org/abs/2012.09491)
 - Code：[https://github.com/transcendentsky/Film-Recovery](https://github.com/transcendentsky/Film-Recovery)
 
-### Data-Free Knowledge Distillation For Image Super-Resolution(DAFL算法的SR版本)
+### Generating Diverse Structure for Image Inpainting With Hierarchical VQ-VAE(使用分层VQ-VAE生成图像修复的多样结构)
+- [paper](https://arxiv.org/pdf/2103.10022) 
+- [code](https://github.com/USTC-JialunPeng/Diverse-Structure-Inpainting)
 
-### AdderSR: Towards Energy Efficient Image Super-Resolution(将加法网路应用到图像超分辨率中)
-- 论文地址:[https://arxiv.org/pdf/2009.08891.pdf](https://arxiv.org/pdf/2009.08891.pdf)
-- 代码地址:[https://github.com/huawei-noah/AdderNet](https://github.com/huawei-noah/AdderNet)
-- 解读：[华为开源加法神经网络](https://zhuanlan.zhihu.com/p/113536045)
+### PISE: Person Image Synthesis and Editing with Decoupled GAN(使用分离的GAN进行人像合成和编辑)
+- [paper](https://arxiv.org/abs/2103.04023)
+- [code](https://github.com/Zhangjinso/PISE)
+
+### DeFLOCNet: Deep Image Editing via Flexible Low level Controls(通过灵活的低级控件进行深度图像编辑)
+
+### PD-GAN: Probabilistic Diverse GAN for Image Inpainting(用于图像修复的概率多样GAN)
+
+### Anycost GANs for Interactive Image Synthesis and Editing(用于交互式图像合成和编辑的AnyCost Gans)
+- [paper](https://arxiv.org/abs/2103.03243) 
+- [code](https://github.com/mit-han-lab/anycost-gan)
+
+### Exploiting Spatial Dimensions of Latent in GAN for Real-time Image Editing（利用GAN中潜在的空间维度进行实时图像编辑）
 
 <a name="7.图像增强"></a>
 ## 7.图像增强（Image Enhancement）
@@ -194,6 +223,14 @@
 - [paper](https://arxiv.org/abs/2008.00951)
 - [code](https://github.com/eladrich/pixel2style2pixel)
 - [project](https://eladrich.github.io/pixel2style2pixel/)
+
+### CoMoGAN: continuous model-guided image-to-image translation(连续的模型指导的图像到图像翻译)
+- [paper](https://arxiv.org/abs/2103.06879) 
+- [code](http://github.com/cv-rits/CoMoGAN)
+
+### Spatially-Adaptive Pixelwise Networks for Fast Image Translation(空间自适应像素网络，用于快速图像翻译)
+- [paper](https://arxiv.org/abs/2012.02992) 
+- [project](https://tamarott.github.io/ASAPNet_web/)
 
 <a name="11.插帧"></a>
 ## 11.插帧（Frame Interpolation）
@@ -250,6 +287,35 @@
 [7] Towards Open World Object Detection(开放世界中的目标检测)
 - [code](https://github.com/JosephKJ/OWOD)
 
+[8] You Only Look One-level Feature
+- [paper](https://arxiv.org/pdf/2103.09460.pdf)
+- [code](https://github.com/megvii-model/YOLOF)
+
+[9] End-to-End Object Detection with Fully Convolutional Network()
+- [paper](https://arxiv.org/abs/2012.03544) 
+- [code](https://github.com/Megvii-BaseDetection/DeFCN)
+- 解读：[丢弃Transformer，FCN也可以实现E2E检测](https://zhuanlan.zhihu.com/p/332281368)
+
+[10] FSCE: Few-Shot Object Detection via Contrastive Proposal Encoding(通过对比提案编码进行的小样本目标检测)
+- [paper](https://arxiv.org/abs/2103.05977)
+
+[11] Generalized Focal Loss V2: Learning Reliable Localization Quality Estimation for Dense Object Detection(学习可靠的定位质量估计用于密集目标检测)
+- [paper](https://arxiv.org/pdf/2011.12885.pdf) 
+- [code](https://github.com/implus/GFocalV2) 
+- 解读:[大白话 Generalized Focal Loss V2](https://zhuanlan.zhihu.com/p/313684358)
+
+[12] MeGA-CDA: Memory Guided Attention for Category-Aware Unsupervised Domain Adaptive Object Detection(用于类别识别无监督域自适应对象检测)
+- [paper](https://arxiv.org/pdf/2103.04224.pdf)
+
+[13] OPANAS: One-Shot Path Aggregation Network Architecture Search for Object(一键式路径聚合网络体系结构搜索对象)
+- [paper](https://arxiv.org/abs/2103.04507) 
+- [code](https://github.com/VDIGPKU/OPANAS)
+
+[14] UP-DETR: Unsupervised Pre-training for Object Detection with Transformers
+- [paper](https://arxiv.org/pdf/2011.09094.pdf) 
+- [code](https://github.com/dddzg/up-detr)
+- 解读：[无监督预训练检测器](https://www.zhihu.com/question/432321109/answer/1606004872)
+
 <a name="VOD"/> 
 
 ### 视频目标检测(Video Object Detection)
@@ -277,6 +343,14 @@
 [2] Categorical Depth Distribution Network for Monocular 3D Object Detection(用于单目三维目标检测的分类深度分布网络)
 - [paper](https://arxiv.org/abs/2103.01100)
 
+[3] ST3D: Self-training for Unsupervised Domain Adaptation on 3D Object Detection(ST3D：在三维目标检测上进行无监督域自适应的自训练)
+- [paper](https://arxiv.org/pdf/2103.05346.pdf) 
+- [code](https://github.com/CVMI-Lab/ST3D)
+
+[4] Center-based 3D Object Detection and Tracking(基于中心的3D目标检测和跟踪)
+- [paper](https://arxiv.org/abs/2006.11275) 
+- [code](https://github.com/tianweiy/CenterPoint)
+
 <a name="Activity Detection"/> 
 
 ### 动作检测(Activity Detection)
@@ -284,12 +358,41 @@
 [1] Coarse-Fine Networks for Temporal Activity Detection in Videos
 - [paper](https://arxiv.org/abs/2103.01302)
 
+[2] Detecting Human-Object Interaction via Fabricated Compositional Learning(通过人为构图学习检测人与物体的相互作用)
+- [paper](https://arxiv.org/abs/2103.08214) 
+- [code](https://github.com/zhihou7/FCL)
+
+[3] Reformulating HOI Detection as Adaptive Set Prediction(将人物交互检测重新配置为自适应集预测)
+- [paper](https://arxiv.org/abs/2103.05983) 
+- [code](https://arxiv.org/abs/2103.05983)
+
+[4] QPIC: Query-Based Pairwise Human-Object Interaction Detection with Image-Wide Contextual Information(具有图像范围的上下文信息的基于查询的成对人物交互检测)
+- [paper](https://arxiv.org/abs/2103.05399) 
+- [code](https://github.com/hitachi-rd-cv/qpic)
+
+[5] End-to-End Human Object Interaction Detection with HOI Transformer(使用HOI Transformer进行端到端的人类对象交互检测)
+- [paper](https://arxiv.org/pdf/2103.04503.pdf) 
+- [code](https://github.com/bbepoch/HoiTransformer)
+
 <a name="AnomallyDetetionn"/> 
 
 ### 异常检测(Anomally Detetion)
 
 [1] Multiresolution Knowledge Distillation for Anomaly Detection(用于异常检测的多分辨率知识蒸馏)
 - [paper](https://arxiv.org/abs/2011.11108)
+
+[2] ReDet: A Rotation-equivariant Detector for Aerial Object Detection(ReDet：用于航空物体检测的等速旋转检测器)
+- [paper](https://arxiv.org/abs/2103.07733) 
+- [code](https://github.com/csuhan/ReDet)
+
+[3] Dense Label Encoding for Boundary Discontinuity Free Rotation Detection(密集标签编码，用于边界不连续自由旋转检测)
+- [paper](https://arxiv.org/abs/2011.09670) 
+- [code](https://github.com/yangxue0827/RotationDetection) 
+- [解读-DCL：旋转目标检测新方法](https://zhuanlan.zhihu.com/p/354373013)
+
+[4] Skeleton Merger: an Unsupervised Aligned Keypoint Detector(骨架合并：无监督的对准关键点检测器)
+- [paper](https://arxiv.org/pdf/2103.10814.pdf) 
+- [code](https://github.com/eliphatfs/SkeletonMerger)
 
 <br>
 
@@ -302,6 +405,13 @@
  - [code](https://github.com/mboudiaf/RePRI-for-Few-Shot-Segmentation)
 
 [2] PointFlow: Flowing Semantics Through Points for Aerial Image Segmentation(语义流经点以进行航空图像分割)
+
+[3] PointFlow: Flowing Semantics Through Points for Aerial Image Segmentation(语义流经点以进行航空图像分割)
+- [paper](https://arxiv.org/pdf/2103.06564.pdf)
+
+[4] FedDG: Federated Domain Generalization on Medical Image Segmentation via Episodic Learning in Continuous Frequency Space(在连续频率空间中通过情景学习进行医学图像分割的联合域泛化)
+- [paper](https://arxiv.org/abs/2103.06030) 
+- [code](https://github.com/liuquande/FedDG-ELCFS)
 
 <a name="PanopticSegmentation"/> 
 
@@ -322,15 +432,62 @@
 - [code](https://github.com/QingyongHu/SensatUrban)
 
 [2] PLOP: Learning without Forgetting for Continual Semantic Segmentation（PLOP：学习而不会忘记连续的语义分割）
-[paper](https://arxiv.org/abs/2011.11390)
+- [paper](https://arxiv.org/abs/2011.11390)
+
+[3] Cross-Dataset Collaborative Learning for Semantic Segmentation(跨数据集协同学习的语义分割)
+- [paper](https://arxiv.org/abs/2103.11351)
+
+[4] BBAM: Bounding Box Attribution Map for Weakly Supervised Semantic and Instance Segmentation(用于弱监督语义和实例细分的边界框归因图)
+- [paper](https://arxiv.org/abs/2103.08907)
+
+[5] Continual Semantic Segmentation via Repulsion-Attraction of Sparse and Disentangled Latent Representations(通过稀疏和纠缠的潜在表示的排斥力进行连续语义分割)
+- [paper](https://arxiv.org/abs/2103.06342)
+
+[6] Semantic Segmentation for Real Point Cloud Scenes via Bilateral Augmentation and Adaptive Fusion(通过双边扩充和自适应融合对实点云场景进行语义分割)
+- [paper](https://arxiv.org/abs/2103.07074)
+
+[7] Capturing Omni-Range Context for Omnidirectional Segmentation(捕获全方位上下文进行全方位分割)
+- [paper](https://arxiv.org/abs/2103.05687)
+
+[8] MetaCorrection: Domain-aware Meta Loss Correction for Unsupervised Domain Adaptation in Semantic Segmentation(MetaCorrection：语义分割中无监督域自适应的域感知元丢失校正)
+- [paper](https://arxiv.org/abs/2103.05254)
+
+[9] Learning Statistical Texture for Semantic Segmentation(学习用于语义分割的统计纹理)
+- [paper](https://arxiv.org/abs/2103.04133)
+
+[10] Semi-supervised Domain Adaptation based on Dual-level Domain Mixing for Semantic Segmentation(基于双层域混合的半监督域自适应语义分割)
+- [paper](https://arxiv.org/pdf/2103.04705.pdf)
+
+[11] Multi-Source Domain Adaptation with Collaborative Learning for Semantic Segmentation(多源领域自适应与协作学习的语义分割)
+- [paper](https://arxiv.org/abs/2103.04717)
 
 <a name="InstanceSegmentation"/> 
 ### 实例分割(Instance Segmentation)
 
 [1] End-to-End Video Instance Segmentation with Transformers(使用Transformer的端到端视频实例分割) 
 - [paper](https://arxiv.org/abs/2011.14503)
+- [code](https://github.com/Epiphqny/VisTR)
 
-<br><br>
+[2] BBAM: Bounding Box Attribution Map for Weakly Supervised Semantic and Instance Segmentation(用于弱监督语义和实例细分的边界框归因图)
+- [paper](https://arxiv.org/abs/2103.08907)
+
+<a name="Superpixel"/> 
+## 超像素(Superpixel)
+
+[1] Learning the Superpixel in a Non-iterative and Lifelong Manner(以非迭代和终身的方式学习超像素)
+- [paper](https://arxiv.org/pdf/2103.10681.pdf)
+
+<a name="VOS"/> 
+
+### 视频目标分割(Video Object Segmentation)
+
+[1] Learning to Recommend Frame for Interactive Video Object Segmentation in the Wild(学习推荐帧用于交互式野外视频对象分割)
+- [paper](https://arxiv.org/pdf/2103.10391.pdf) 
+- [code](https://github.com/svip-lab/IVOS-W)
+
+[2] Modular Interactive Video Object Segmentation: Interaction-to-Mask, Propagation and Difference-Aware Fusion(模块化交互式视频对象分割：面具交互，传播和差异感知融合)
+- [paper](https://arxiv.org/pdf/2103.07941.pdf) 
+- [project](https://hkchengrex.github.io/MiVOS/)
 
 <a name="Matting"/> 
 
@@ -354,6 +511,14 @@
 [2] PCLs: Geometry-aware Neural Reconstruction of 3D Pose with Perspective Crop Layers（具有透视作物层的3D姿势的几何感知神经重建）
 - [paper](https://arxiv.org/abs/2011.13607)
 
+[3] DCPose: Deep Dual Consecutive Network for Human Pose Estimation(用于人体姿态估计的深度双重连续网络)
+- [paper](https://arxiv.org/abs/2103.07254) 
+- [code](https://github.com/Pose-Group/DCPose)
+
+[4] Differentiable Multi-Granularity Human Representation Learning for Instance-Aware Human Semantic Parsing(用于实例感知人类语义解析的可微分多粒度人类表示学习)
+- [paper](https://arxiv.org/pdf/2103.04570.pdf) 
+- [code](https://github.com/tfzhou/MG-HumanParsing)
+
 <a name="Flow/Pose/MotionEstimation"/> 
 
 ### 手势估计(Gesture Estimation)
@@ -361,6 +526,10 @@
 [1] Camera-Space Hand Mesh Recovery via Semantic Aggregation and Adaptive  2D-1D Registration(基于语义聚合和自适应2D-1D配准的相机空间手部网格恢复)
 - [paper](https://arxiv.org/pdf/2103.02845.pdf)
 - [code](https://github.com/SeanChenxy/HandMesh)
+
+[2] Skeleton Based Sign Language Recognition Using Whole-body Keypoints(基于全身关键点的基于骨架的手语识别)
+- [paper](https://arxiv.org/abs/2103.08833) 
+- [code](https://github.com/jackyjsy/CVPR21Chal-SLR)
 
 <a name="Flow/Pose/MotionEstimation"/> 
 
@@ -405,45 +574,164 @@
 
 ## 目标跟踪(Object Tracking)
 
-[4] HPS: localizing and tracking people in large 3D scenes from wearable sensors(通过可穿戴式传感器对大型3D场景中的人进行定位和跟踪)
+[1] HPS: localizing and tracking people in large 3D scenes from wearable sensors(通过可穿戴式传感器对大型3D场景中的人进行定位和跟踪)
 
-[3] Track to Detect and Segment: An Online Multi-Object Tracker(跟踪检测和分段：在线多对象跟踪器)
+[2] Track to Detect and Segment: An Online Multi-Object Tracker(跟踪检测和分段：在线多对象跟踪器)
 - [project](https://jialianwu.com/projects/TraDeS.html)
 - [video](https://www.youtube.com/watch?v=oGNtSFHRZJA)
 
-[2] Probabilistic Tracklet Scoring and Inpainting for Multiple Object Tracking(多目标跟踪的概率小波计分和修复)
+[3] Probabilistic Tracklet Scoring and Inpainting for Multiple Object Tracking(多目标跟踪的概率小波计分和修复)
 - [paper](https://arxiv.org/abs/2012.02337)
 
-[1] Rotation Equivariant Siamese Networks for Tracking（旋转等距连体网络进行跟踪）
+[4] Rotation Equivariant Siamese Networks for Tracking（旋转等距连体网络进行跟踪）
 - [paper](https://arxiv.org/abs/2012.13078)
+
+[5] Transformer Meets Tracker: Exploiting Temporal Context for Robust Visual Tracking(Transformer与追踪器相遇：利用时间上下文进行可靠的视觉追踪)
+- [paper](https://arxiv.org/pdf/2103.11681)
+
+[6] Track to Detect and Segment: An Online Multi-Object Tracker(跟踪检测和分段：在线多目标跟踪器)
+- [paper](https://arxiv.org/abs/2103.08808) | [code](https://jialianwu.com/projects/TraDeS.html)
+
+[7] Learning a Proposal Classifier for Multiple Object Tracking(用于多对象跟踪的分类器)
+- [paper](https://arxiv.org/abs/2103.07889) 
+- [code](https://github.com/daip13/LPC_MOT.git)
+
+[8] Center-based 3D Object Detection and Tracking(基于中心的3D目标检测和跟踪)
+- [paper](https://arxiv.org/abs/2006.11275) 
+- [code](https://github.com/tianweiy/CenterPoint)
+
+<br>
+
+<a name="FaceSynthesis"/> 
+
+### 人脸生成/合成/伪造(Face Generation/Face Synthesis/Face Forgery)
+
+[1] Frequency-aware Discriminative Feature Learning Supervised by Single-Center Loss for Face Forgery Detection(【人脸伪造检测】由单中心损失监督的频率感知判别特征学习，用于人脸伪造检测)
+- [paper](https://arxiv.org/abs/2103.09096)
+
+[2] 3DCaricShop: A Dataset and A Baseline Method for Single-view 3D Caricature Face Reconstruction(单视图3D漫画面部重建的数据集和基线方法)
+- [paper](https://arxiv.org/pdf/2103.08204.pdf) 
+- [project](https://qiuyuda.github.io/3DCaricShop/)
+
+[3] ForgeryNet: A Versatile Benchmark for Comprehensive Forgery Analysis(进行全面伪造分析的多功能基准)
+- [paper](https://arxiv.org/abs/2103.05630) 
+- [code](https://yinanhe.github.io/projects/forgerynet.html)
+
+[4] Image-to-image Translation via Hierarchical Style Disentanglement(通过分层样式分解实现图像到图像的翻译)
+- [paper](https://arxiv.org/abs/2103.01456) 
+- [code](https://github.com/imlixinyang/HiSD)
+
+[5] When Age-Invariant Face Recognition Meets Face Age Synthesis: A  Multi-Task Learning Framework(当年龄不变的人脸识别遇到人脸年龄合成时：一个多任务学习框架)<br>
+- [paper](https://arxiv.org/abs/2103.01520) 
+- [code](https://github.com/Hzzone/MTLFace)
+
+[6] PISE: Person Image Synthesis and Editing with Decoupled GAN(使用分离的GAN进行人像合成和编辑)
+- [paper](https://arxiv.org/abs/2103.04023) 
+- [code](https://github.com/Zhangjinso/PISE)
+
+[7] Soft-IntroVAE: Analyzing and Improving Introspective Variational Autoencoders(分析和改进自省变分自动编码器)
+- [paper](https://arxiv.org/pdf/2012.13253.pdf) 
+- [code](https://github.com/taldatech/soft-intro-vae-pytorch) 
+- [project](https://taldatech.github.io/soft-intro-vae-web/)
+
+<a name="FaceAnti-Spoofing"/> 
+
+### 人脸反欺骗(Face Anti-Spoofing)
+
+[1] Cross Modal Focal Loss for RGBD Face Anti-Spoofing(跨模态焦点损失，用于RGBD人脸反欺骗)
+- [paper](https://arxiv.org/abs/2103.00948)
+
+[2] Multi-attentional Deepfake Detection(多注意的Deepfake检测)
+- [paper](https://arxiv.org/abs/2103.02406)
+
 <br>
 
 <a name="Re-Identification"/> 
-
 ## 重识别
 
 [1] Meta Batch-Instance Normalization for Generalizable Person Re-Identification(通用批处理人员重新标识的元批实例规范化)
 - [paper](https://arxiv.org/abs/2011.14670)
 
+
+<a name="ImageRetrieval"/> 
+
+## 图像/视频检索(Image/Video Retrieval)
+
+[2] On Semantic Similarity in Video Retrieval(视频检索中的语义相似度)<br>
+[paper](https://arxiv.org/abs/2103.10095) ｜ [code](https://mwray.github.io/SSVR/)<br><br>
+
+[1] QAIR: Practical Query-efficient Black-Box Attacks for Image Retrieval(实用的查询高效的图像检索黑盒攻击)<br>
+[paper](https://arxiv.org/abs/2103.02927)<br><br>
+
+<a name="ActionRecognition"/> 
+
+### 行为识别/动作识别/检测/分割(Action/Activity Recognition)
+
+[1] Temporally-Weighted Hierarchical Clustering for Unsupervised Action Segmentation(临时加权层次聚类，实现无监督动作分割)
+- [paper](https://arxiv.org/abs/2103.11264) 
+- [code](https://github.com/ssarfraz/FINCH-Clustering/tree/master/TW-FINCH)
+
+[2] Coarse-Fine Networks for Temporal Activity Detection in Videos(粗细网络，用于视频中的时间活动检测)
+- [paper](https://arxiv.org/abs/2103.01302)
+
+[3] Learning Discriminative Prototypes with Dynamic Time Warping(通过动态时间扭曲学习判别性原型)
+- [paper](https://arxiv.org/pdf/2103.09458.pdf)
+
+[4] Temporal Action Segmentation from Timestamp Supervision(时间监督中的时间动作分割)
+- [paper](https://arxiv.org/abs/2103.06669)
+
+[5] ACTION-Net: Multipath Excitation for Action Recognition(用于动作识别的多路径激励)
+- [paper](https://arxiv.org/abs/2103.07372) 
+- [code](https://github.com/V-Sense/ACTION-Net)
+
+[6] BASAR:Black-box Attack on Skeletal Action Recognition(骨骼动作识别的黑匣子攻击)
+- [paper](https://arxiv.org/abs/2103.05266)
+
+[7] Understanding the Robustness of Skeleton-based Action Recognition under Adversarial Attack(了解对抗攻击下基于骨骼的动作识别的鲁棒性)
+- [paper](https://arxiv.org/pdf/2103.05347.pdf)
+
+[8] Temporal Difference Networks for Efficient Action Recognition(用于有效动作识别的时差网络)
+- [paper](https://arxiv.org/abs/2012.10071) 
+- [code](https://github.com/MCG-NJU/TDN)
+
+[9] Behavior-Driven Synthesis of Human Dynamics(行为驱动的人类动力学综合)
+- [paper](https://arxiv.org/pdf/2103.04677.pdf) 
+- [code](https://compvis.github.io/behavior-driven-video-synthesis/)
+
 <a name="MedicalImaging"/> 
 
 ## 医学影像(Medical Imaging)
 
-[5] DeepTag: An Unsupervised Deep Learning Method for Motion Tracking on  Cardiac Tagging Magnetic Resonance Images(一种心脏标记磁共振图像运动跟踪的无监督深度学习方法)
+[1] DeepTag: An Unsupervised Deep Learning Method for Motion Tracking on  Cardiac Tagging Magnetic Resonance Images(一种心脏标记磁共振图像运动跟踪的无监督深度学习方法)
 - [paper](https://arxiv.org/abs/2103.02772)
 
-[4] Multi-institutional Collaborations for Improving Deep Learning-based Magnetic Resonance Image Reconstruction Using Federated Learning(多机构协作改进基于深度学习的联合学习磁共振图像重建)
+[2] Multi-institutional Collaborations for Improving Deep Learning-based Magnetic Resonance Image Reconstruction Using Federated Learning(多机构协作改进基于深度学习的联合学习磁共振图像重建)
 - [paper](https://arxiv.org/abs/2103.02148)
 - [code](https://github.com/guopengf/FLMRCM)
 
 [3] 3D Graph Anatomy Geometry-Integrated Network for Pancreatic Mass Segmentation, Diagnosis, and Quantitative Patient Management(用于胰腺肿块分割，诊断和定量患者管理的3D图形解剖学几何集成网络)
 
-[2] Deep Lesion Tracker: Monitoring Lesions in 4D Longitudinal Imaging Studies(深部病变追踪器：在4D纵向成像研究中监控病变)
+[4] Deep Lesion Tracker: Monitoring Lesions in 4D Longitudinal Imaging Studies(深部病变追踪器：在4D纵向成像研究中监控病变)
 - [paper](https://arxiv.org/abs/2012.04872)
 
-[1] Automatic Vertebra Localization and Identification in CT by Spine Rectification and Anatomically-constrained Optimization(通过脊柱矫正和解剖学约束优化在CT中自动进行椎骨定位和识别)
+[5] Automatic Vertebra Localization and Identification in CT by Spine Rectification and Anatomically-constrained Optimization(通过脊柱矫正和解剖学约束优化在CT中自动进行椎骨定位和识别)
 - [paper](https://arxiv.org/abs/2012.07947)
 
+[6] Brain Image Synthesis with Unsupervised Multivariate Canonical CSCℓ4Net(无监督多元规范CSCℓ4Net的脑图像合成)
+- [paper](https://arxiv.org/pdf/2103.11587.pdf)
+
+[7] XProtoNet: Diagnosis in Chest Radiography with Global and Local Explanations(使用全局和局部解释诊断胸部X光片)
+- [paper](https://arxiv.org/pdf/2103.10663.pdf)
+
+[8] FedDG: Federated Domain Generalization on Medical Image Segmentation via Episodic Learning in Continuous Frequency Space(在连续频率空间中通过情景学习进行医学图像分割的联合域泛化)
+- [paper](https://arxiv.org/abs/2103.06030) 
+- [code](https://github.com/liuquande/FedDG-ELCFS)
+
+[9] Multiple Instance Captioning: Learning Representations from Histopathology Textbooks and Articles(多实例字幕：从组织病理学教科书和文章中学习表示形式)
+- [paper](https://arxiv.org/pdf/2103.05121.pdf)
+
+[10] Discovering Hidden Physics Behind Transport Dynamics(在运输动力学背后发现隐藏物理)
+- [paper](https://arxiv.org/abs/2011.12222)
 
 <br>
 
@@ -451,14 +739,30 @@
 
 ## 神经网络架构搜索(NAS)
 
-[3] AttentiveNAS: Improving Neural Architecture Search via Attentive(通过注意力改善神经架构搜索) 
+[1] AttentiveNAS: Improving Neural Architecture Search via Attentive(通过注意力改善神经架构搜索) 
 - [paper](https://arxiv.org/pdf/2011.09011.pdf)
 
 [2] ReNAS: Relativistic Evaluation of Neural Architecture Search(NAS predictor当中ranking loss的重要性)
 - [paper](https://arxiv.org/pdf/1910.01523.pdf)
 
-[1] HourNAS: Extremely Fast Neural Architecture Search Through an Hourglass Lens（降低NAS的成本）
+[3] HourNAS: Extremely Fast Neural Architecture Search Through an Hourglass Lens（降低NAS的成本）
 - [paper](https://arxiv.org/pdf/2005.14446.pdf)
+
+[4] Prioritized Architecture Sampling with Monto-Carlo Tree Search(蒙特卡洛树搜索的优先架构采样)
+- [paper](https://arxiv.org/pdf/2103.11922.pdf) 
+- [code](https://github.com/xiusu/NAS-Bench-Macro)
+
+[5] Searching by Generating: Flexible and Efficient One-Shot NAS with Architecture Generator(通过生成进行搜索：带有架构生成器的灵活高效的一键式NAS)
+- [paper](https://arxiv.org/abs/2103.07289) 
+- [code](https://github.com/eric8607242/SGNAS)
+
+[6] Contrastive Neural Architecture Search with Neural Architecture Comparators(带有神经结构比较器的对比神经网络架构搜索)
+- [paper](https://arxiv.org/abs/2103.05471) 
+- [code](https://github.com/chenyaofo/CTNAS)
+
+[7] OPANAS: One-Shot Path Aggregation Network Architecture Search for Object(一键式路径聚合网络体系结构搜索对象)
+- [paper](https://arxiv.org/abs/2103.04507) 
+- [code](https://github.com/VDIGPKU/OPANAS)
 
 <br>
 
@@ -466,27 +770,58 @@
 
 ## GAN/生成式/对抗式(GAN/Generative/Adversarial)
 
-[6] Anycost GANs for Interactive Image Synthesis and Editing(用于交互式图像合成和编辑的AnyCost Gans)
+[1] Anycost GANs for Interactive Image Synthesis and Editing(用于交互式图像合成和编辑的AnyCost Gans)
 - [paper](https://arxiv.org/abs/2103.03243)
 - [code](https://github.com/mit-han-lab/anycost-gan)
 
-[5] Efficient Conditional GAN Transfer with Knowledge Propagation across Classes(高效的有条件GAN转移以及跨课程的知识传播)
+[2] Efficient Conditional GAN Transfer with Knowledge Propagation across Classes(高效的有条件GAN转移以及跨课程的知识传播)
 - [paper](高效的有条件GAN转移以及跨课程的知识传播)
 - [code](http://github.com/mshahbazi72/cGANTransfer)
 
-[4] Exploiting Spatial Dimensions of Latent in GAN for Real-time Image Editing（利用GAN中潜在的空间维度进行实时图像编辑）
+[3] Exploiting Spatial Dimensions of Latent in GAN for Real-time Image Editing（利用GAN中潜在的空间维度进行实时图像编辑）
 
-[3] Hijack-GAN: Unintended-Use of Pretrained, Black-Box GANs(Hijack-GAN：意外使用经过预训练的黑匣子GAN)
+[4] Hijack-GAN: Unintended-Use of Pretrained, Black-Box GANs(Hijack-GAN：意外使用经过预训练的黑匣子GAN)
 - [paper](https://arxiv.org/pdf/2011.14107.pdf)
 
-[2] Encoding in Style: a StyleGAN Encoder for Image-to-Image Translation(样式编码：用于图像到图像翻译的StyleGAN编码器)
+[5] Encoding in Style: a StyleGAN Encoder for Image-to-Image Translation(样式编码：用于图像到图像翻译的StyleGAN编码器)
 - [paper](https://arxiv.org/abs/2008.00951)
 - [code](https://github.com/eladrich/pixel2style2pixel)
 - [project](https://eladrich.github.io/pixel2style2pixel/)
 
-[1] A 3D GAN for Improved Large-pose Facial Recognition(用于改善大姿势面部识别的3D GAN)
+[6] A 3D GAN for Improved Large-pose Facial Recognition(用于改善大姿势面部识别的3D GAN)
 - [paper](https://arxiv.org/pdf/2012.10545.pdf)
 
+[7] DivCo: Diverse Conditional Image Synthesis via Contrastive Generative Adversarial Network(通过对比生成对抗网络进行多种条件图像合成)
+- [paper](https://arxiv.org/abs/2103.07893)
+
+[8] Diverse Semantic Image Synthesis via Probability Distribution Modeling(基于概率分布建模的多种语义图像合成)
+- [paper](https://arxiv.org/abs/2103.06878) 
+- [code](https://github.com/tzt101/INADE.git)
+
+[9] HumanGAN: A Generative Model of Humans Images(人类图像的生成模型)
+- [paper](https://arxiv.org/abs/2103.06902)
+
+[10] MetaSimulator: Simulating Unknown Target Models for Query-Efficient Black-box Attacks(模拟未知目标模型以提高查询效率的黑盒攻击)
+- [paper](https://arxiv.org/abs/2009.00960) 
+- [code](https://github.com/machanic/MetaSimulator)
+
+[11] Soft-IntroVAE: Analyzing and Improving Introspective Variational Autoencoders(分析和改进自省变分自动编码器)
+- [paper](https://arxiv.org/pdf/2012.13253.pdf) 
+- [code](https://github.com/taldatech/soft-intro-vae-pytorch) \
+- [project](https://taldatech.github.io/soft-intro-vae-web/)
+
+[12] LOHO: Latent Optimization of Hairstyles via Orthogonalization(LOHO：通过正交化潜在地优化发型)
+- [paper](https://arxiv.org/pdf/2103.03891.pdf)
+
+[13] PISE: Person Image Synthesis and Editing with Decoupled GAN(使用分离的GAN进行人像合成和编辑)
+- [paper](https://arxiv.org/abs/2103.04023) \
+- [code](https://github.com/Zhangjinso/PISE)
+
+[14] Closed-Form Factorization of Latent Semantics in GANs(GAN中潜在语义的闭式分解)
+- [paper](https://arxiv.org/abs/2007.06600) 
+- [code](https://github.com/genforce/sefa)
+
+[15] PD-GAN: Probabilistic Diverse GAN for Image Inpainting(用于图像修复的概率多样GAN)
 
 
 <a name="3DVision"/> 
@@ -502,6 +837,24 @@
 <a name="3DPC"/> 
 
 ### 三维点云(3D Point Cloud)
+
+[14] Skeleton Merger: an Unsupervised Aligned Keypoint Detector(骨架合并：无监督的对准关键点检测器)<br>
+[paper](https://arxiv.org/pdf/2103.10814.pdf) | [code](https://github.com/eliphatfs/SkeletonMerger)<br><br>
+
+[13] Cycle4Completion: Unpaired Point Cloud Completion using Cycle Transformation with Missing Region Coding(使用缺失区域编码的循环变换完成不成对的点云)<br>
+[paper](https://arxiv.org/abs/2103.07838)<br><br>
+
+[12] Semantic Segmentation for Real Point Cloud Scenes via Bilateral Augmentation and Adaptive Fusion(通过双边扩充和自适应融合对实点云场景进行语义分割)<br>
+[paper](https://arxiv.org/abs/2103.07074)<br><br>
+
+[11] How Privacy-Preserving are Line Clouds? Recovering Scene Details from 3D Lines(线云如何保护隐私？ 从3D线中恢复场景详细信息)<br>
+[paper](https://arxiv.org/pdf/2103.05086.pdf) | [code](https://github.com/kunalchelani/Line2Point)<br><br>
+
+[10] PointDSC: Robust Point Cloud Registration using Deep Spatial Consistency(使用深度空间一致性进行稳健的点云配准)<br>
+[paper](https://arxiv.org/abs/2103.05465) | [code](https://github.com/XuyangBai/PointDSC)<br><br>
+
+[9] Robust Point Cloud Registration Framework Based on Deep Graph Matching(基于深度图匹配的鲁棒点云配准框架)<br>
+[paper](https://arxiv.org/pdf/2103.04256.pdf) | [code](https://github.com/fukexue/RGM)<br><br>
 
 [8] TPCN: Temporal Point Cloud Networks for Motion Forecasting(面向运动预测的时态点云网络)
 - [paper](https://arxiv.org/abs/2103.03067)
@@ -556,13 +909,28 @@
 
 ### 知识蒸馏(Knowledge Distillation)
 
-[3] General Instance Distillation for Object Detection(通用实例蒸馏技术在目标检测中的应用)
-- [paper](https://arxiv.org/abs/2103.02340)<br><br>
+[1] Refine Myself by Teaching Myself: Feature Refinement via Self-Knowledge Distillation(通过自学来完善自己：通过自我蒸馏提炼特征)
+- [paper](https://arxiv.org/pdf/2103.08273.pdf) 
+- [code](https://github.com/MingiJi/FRSKD)
 
-[2] Multiresolution Knowledge Distillation for Anomaly Detection(用于异常检测的多分辨率知识蒸馏)
+[2] Knowledge Evolution in Neural Networks(神经网络中的知识进化)
+- [paper](https://arxiv.org/pdf/2103.05152.pdf) 
+- [code](https://github.com/ahmdtaha/knowledge_evolution)
+
+[3] Semantic-aware Knowledge Distillation for Few-Shot Class-Incremental Learning(少班级增量学习的语义感知知识蒸馏)
+- [paper](https://arxiv.org/abs/2103.04059)
+
+[4] Teachers Do More Than Teach: Compressing Image-to-Image Models(https://arxiv.org/abs/2103.03467)
+- [paper](https://arxiv.org/abs/2103.03467) 
+- [code](https://github.com/snap-research/CAT)
+
+[5] General Instance Distillation for Object Detection(通用实例蒸馏技术在目标检测中的应用)
+- [paper](https://arxiv.org/abs/2103.02340)
+
+[6] Multiresolution Knowledge Distillation for Anomaly Detection(用于异常检测的多分辨率知识蒸馏)
 - [paper](https://arxiv.org/abs/2011.11108)
 
-[1] Distilling Object Detectors via Decoupled Features（前景背景分离的蒸馏技术）
+[7] Distilling Object Detectors via Decoupled Features（前景背景分离的蒸馏技术）
 
 <br>
 
@@ -589,6 +957,12 @@
 - [code](https://github.com/megvii-model/RepVGG)
 - 解读：[RepVGG：极简架构，SOTA性能，让VGG式模型再次伟大](https://zhuanlan.zhihu.com/p/344324470)
 
+[6] Fast and Accurate Model Scaling(快速准确的模型缩放)
+- [paper](https://arxiv.org/abs/2103.06877)
+
+[7] Involution: Inverting the Inherence of Convolution for Visual Recognition(反转卷积的固有性以进行视觉识别)
+- [paper](https://arxiv.org/abs/2103.06255) 
+- [code](https://github.com/d-li14/involution)
 <br>
 
 <a name="att"/> 
@@ -689,6 +1063,9 @@
 <a name="Few-shotLearning"/> 
 
 ## 小样本学习(Few-shot Learning)/零样本
+[6] Goal-Oriented Gaze Estimation for Zero-Shot Learning(零样本学习的目标导向注视估计)
+- [paper](https://arxiv.org/abs/2103.03433) 
+- [code](https://github.com/osierboy/GEM-ZSL)
 
 [5] Few-Shot Segmentation Without Meta-Learning: A Good Transductive Inference Is All You Need?
 - [paper](https://arxiv.org/abs/2012.06166)
